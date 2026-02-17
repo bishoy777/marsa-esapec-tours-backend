@@ -1,15 +1,26 @@
-import { Injectable } from '@nestjs/common';
-import { CreateUserDto } from './dto/create-user.dto';
+import { HttpException, Injectable } from '@nestjs/common';
+import { InjectRepository } from '@nestjs/typeorm';
+import { User } from './entities/user.entity';
+import { Repository } from 'typeorm';
+import { CreateUserDto } from '@/users/dto/create-user.dto';
 import { UpdateUserDto } from './dto/update-user.dto';
-
+import { IUserResponse } from '@/types/userResponse.Interface';
+import { sign } from 'jsonwebtoken';
 @Injectable()
 export class UsersService {
-  create(createUserDto: CreateUserDto) {
-    return 'This action adds a new user';
+  constructor(
+    @InjectRepository(User)
+    private usersRepository: Repository<User>,
+  ) {}
+  async create(createUserDto: CreateUserDto) {
+    const user = this.usersRepository.create(createUserDto);
+
+    const userRes = await this.usersRepository.save(user);
+    return this.genrateUserResponse(userRes);
   }
 
-  findAll() {
-    return `This action returns all users`;
+  async findAll() {
+    return await this.usersRepository.find();
   }
 
   findOne(id: number) {
@@ -22,5 +33,27 @@ export class UsersService {
 
   remove(id: number) {
     return `This action removes a #${id} user`;
+  }
+  genrateJWT(user: User) {
+    return sign(
+      {
+        id: user.id,
+        name: user.name,
+      },
+      process.env.JWT_SECRET || 'token',
+    );
+  }
+  genrateUserResponse(user: User): IUserResponse {
+    return {
+      user: {
+        ...user,
+        token: this.genrateJWT(user),
+      },
+    };
+  }
+  async findByName(name: string): Promise<User | null> {
+    const user = await this.usersRepository.findOne({ where: { name } });
+
+    return user;
   }
 }
