@@ -1,17 +1,14 @@
-import {
-  Module,
-  NestModule,
-  RequestMethod,
-  MiddlewareConsumer,
-} from '@nestjs/common';
+import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { LoggerMiddleware } from '@/middlewares/auth.middleware';
+
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { UsersModule } from './users/users.module';
 import { ConfigModule } from '@nestjs/config';
 import { AuthModule } from './auth/auth.module';
 import { TripTypeModule } from './trip-type/trip-type.module';
+
+import { TripModule } from './trip/trip.module';
 
 @Module({
   imports: [
@@ -31,6 +28,7 @@ import { TripTypeModule } from './trip-type/trip-type.module';
     UsersModule,
     AuthModule,
     TripTypeModule,
+    TripModule,
   ],
   controllers: [AppController],
   providers: [AppService],

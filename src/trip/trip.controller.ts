@@ -1,0 +1,60 @@
+import {
+  Controller,
+  Get,
+  Post,
+  Body,
+  Patch,
+  Param,
+  Delete,
+  UploadedFiles,
+  UseInterceptors,
+} from '@nestjs/common';
+import { TripService } from './trip.service';
+import { CreateTripDto } from './dto/create-trip.dto';
+import { UpdateTripDto } from './dto/update-trip.dto';
+import { FilesInterceptor } from '@nestjs/platform-express';
+import { UseGuards } from '@nestjs/common';
+import { AuthGuard } from '@/auth/auth.guard';
+import { multerConfig } from '@/common/config/multer.config';
+@Controller('trip')
+export class TripController {
+  constructor(private readonly tripService: TripService) {}
+
+  @Post()
+  @UseGuards(AuthGuard)
+  @UseInterceptors(FilesInterceptor('images', 5, multerConfig))
+  async create(
+    @UploadedFiles() files: Express.Multer.File[],
+    @Body() createTripDto: CreateTripDto,
+  ) {
+    const imageUrls = files?.map((file) => `/uploads/${file.filename}`) || [];
+    return this.tripService.create(createTripDto, imageUrls);
+  }
+  // @Post('upload')
+  // @UseInterceptors(FilesInterceptor('image', 5, multerConfig))
+  // uploadImage(@UploadedFile() file: Express.Multer.File) {
+  //   return {
+  //     filename: file.filename,
+  //     path: file.path,
+  //   };
+  // }
+  @Get()
+  findAll() {
+    return this.tripService.findAll();
+  }
+
+  @Get(':id')
+  findOne(@Param('id') id: string) {
+    return this.tripService.findOne(+id);
+  }
+
+  @Patch(':id')
+  update(@Param('id') id: string, @Body() updateTripDto: UpdateTripDto) {
+    return this.tripService.update(+id, updateTripDto);
+  }
+
+  @Delete(':id')
+  remove(@Param('id') id: string) {
+    return this.tripService.remove(+id);
+  }
+}
