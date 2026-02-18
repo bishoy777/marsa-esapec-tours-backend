@@ -46,8 +46,35 @@ export class TripService {
     return `This action returns a #${id} trip`;
   }
 
-  update(id: number, updateTripDto: UpdateTripDto) {
-    return `This action updates a #${id} trip`;
+  async update(id: number, dto: UpdateTripDto, imageUrls: string[] = []) {
+    const trip = await this.tripsRepository.findOne({
+      where: { id },
+      relations: ['images', 'tripType'],
+    });
+
+    if (!trip) {
+      throw new NotFoundException(`Trip with id ${id} not found`);
+    }
+
+    // Update trip fields
+    Object.assign(trip, dto);
+    if (dto.tripTypeId) {
+      trip.tripType = { id: dto.tripTypeId } as any;
+    }
+
+    await this.tripsRepository.save(trip);
+
+    // Add new images if any
+    if (imageUrls?.length) {
+      const newImages = imageUrls.map((url) =>
+        this.tripImageRepository.create({ url, trip }),
+      );
+      await this.tripImageRepository.save(newImages);
+    }
+    return this.tripsRepository.findOne({
+      where: { id: trip.id },
+      relations: ['tripType', 'images'],
+    });
   }
   async remove(id: number) {
     // Find the trip first

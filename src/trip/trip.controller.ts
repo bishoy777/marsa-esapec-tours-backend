@@ -49,8 +49,15 @@ export class TripController {
   }
 
   @Patch(':id')
-  update(@Param('id') id: string, @Body() updateTripDto: UpdateTripDto) {
-    return this.tripService.update(+id, updateTripDto);
+  @UseGuards(AuthGuard)
+  @UseInterceptors(FilesInterceptor('images', 5, multerConfig))
+  async update(
+    @Param('id') id: string,
+    @Body() updateTripDto: UpdateTripDto,
+    @UploadedFiles() files: Express.Multer.File[],
+  ) {
+    const imageUrls = files?.map((file) => `/uploads/${file.filename}`) || [];
+    return this.tripService.update(+id, updateTripDto, imageUrls);
   }
 
   @Delete(':id')
