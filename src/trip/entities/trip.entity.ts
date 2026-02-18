@@ -7,7 +7,7 @@ import {
 } from 'typeorm';
 import { TripType } from '@/trip-type/entities/trip-type.entity';
 import { TripImage } from '@/trip/entities/trip-image.entity';
-
+import { Reservation } from '@/reservations/entities/reservation.entity';
 @Entity()
 export class Trip {
   @PrimaryGeneratedColumn()
@@ -30,4 +30,6 @@ export class Trip {
   tripType: TripType;
   @OneToMany(() => TripImage, (image) => image.trip, { eager: true })
   images: TripImage[];
+  @OneToMany(() => Reservation, (reservation) => reservation.trip)
+  reservations: Reservation[];
 }

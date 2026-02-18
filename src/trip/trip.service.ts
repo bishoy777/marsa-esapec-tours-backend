@@ -5,6 +5,7 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { UpdateTripDto } from './dto/update-trip.dto';
 import { Trip } from './entities/trip.entity';
 import { TripImage } from '@/trip/entities/trip-image.entity';
+
 @Injectable()
 export class TripService {
   constructor(

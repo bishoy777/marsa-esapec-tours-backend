@@ -66,6 +66,7 @@ export class TripController {
   }
 
   @Delete(':id')
+  @UseGuards(AuthGuard)
   remove(@Param('id') id: string) {
     return this.tripService.remove(+id);
   }

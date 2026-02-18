@@ -9,6 +9,7 @@ import { AuthModule } from './auth/auth.module';
 import { TripTypeModule } from './trip-type/trip-type.module';
 
 import { TripModule } from './trip/trip.module';
+import { ReservationsModule } from './reservations/reservations.module';
 
 @Module({
   imports: [
@@ -29,6 +30,7 @@ import { TripModule } from './trip/trip.module';
     AuthModule,
     TripTypeModule,
     TripModule,
+    ReservationsModule,
   ],
   controllers: [AppController],
   providers: [AppService],
