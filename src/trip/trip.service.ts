@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable, NotFoundException } from '@nestjs/common';
 import { Repository } from 'typeorm';
 import { CreateTripDto } from './dto/create-trip.dto';
 import { InjectRepository } from '@nestjs/typeorm';
@@ -65,5 +65,19 @@ export class TripService {
     await this.tripsRepository.remove(trip);
 
     return { message: `Trip with id ${id} has been successfully deleted` };
+  }
+  async removeImage(id: number) {
+    const image = await this.tripImageRepository.findOne({
+      where: { id },
+      relations: ['trip'],
+    });
+
+    if (!image) {
+      throw new NotFoundException(`Image with id ${id} not found`);
+    }
+
+    await this.tripImageRepository.remove(image);
+
+    return { message: `Image with id ${id} has been deleted successfully` };
   }
 }

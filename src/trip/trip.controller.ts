@@ -57,4 +57,9 @@ export class TripController {
   remove(@Param('id') id: string) {
     return this.tripService.remove(+id);
   }
+  @Delete('images/:id')
+  @UseGuards(AuthGuard)
+  removeImage(@Param('id') id: string) {
+    return this.tripService.removeImage(+id);
+  }
 }
