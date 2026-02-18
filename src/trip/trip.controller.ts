@@ -7,6 +7,7 @@ import {
   Param,
   Delete,
   UploadedFiles,
+  Query,
   UseInterceptors,
 } from '@nestjs/common';
 import { TripService } from './trip.service';
@@ -43,6 +44,10 @@ export class TripController {
     return this.tripService.findAll();
   }
 
+  @Get('search')
+  searchByType(@Query('tripTypeId') tripTypeId: string) {
+    return this.tripService.findByType(+tripTypeId);
+  }
   @Get(':id')
   findOne(@Param('id') id: string) {
     return this.tripService.findOne(+id);

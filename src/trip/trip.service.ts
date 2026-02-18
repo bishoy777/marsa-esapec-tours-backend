@@ -45,7 +45,12 @@ export class TripService {
   findOne(id: number) {
     return `This action returns a #${id} trip`;
   }
-
+  async findByType(tripTypeId: number) {
+    return this.tripsRepository.find({
+      where: { tripType: { id: tripTypeId } },
+      relations: ['tripType', 'images'],
+    });
+  }
   async update(id: number, dto: UpdateTripDto, imageUrls: string[] = []) {
     const trip = await this.tripsRepository.findOne({
       where: { id },
