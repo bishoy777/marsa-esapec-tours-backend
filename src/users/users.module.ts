@@ -1,4 +1,10 @@
-import { Module } from '@nestjs/common';
+import {
+  Module,
+  // NestModule,
+  // RequestMethod,
+  // MiddlewareConsumer,
+} from '@nestjs/common';
+// import { LoggerMiddleware } from '@/middlewares/auth.middleware';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { UsersService } from './users.service';
 import { UsersController } from './users.controller';
@@ -10,4 +16,10 @@ import { User } from './entities/user.entity';
   providers: [UsersService],
   exports: [UsersService, TypeOrmModule],
 })
-export class UsersModule {}
+export class UsersModule {
+  // configure(consumer: MiddlewareConsumer) {
+  //   consumer
+  //     .apply(LoggerMiddleware)
+  //     .forRoutes({ path: '*', method: RequestMethod.ALL });
+  // }
+}
