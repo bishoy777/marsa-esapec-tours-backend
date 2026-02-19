@@ -1,14 +1,24 @@
 import { Injectable } from '@nestjs/common';
 import { HttpException } from '@nestjs/common';
+import { InjectRepository } from '@nestjs/typeorm';
+import { Repository } from 'typeorm';
+import { User } from '@/users/entities/user.entity';
 import { UsersService } from '@/users/users.service';
 import { CreateUserDto } from '@/users/dto/create-user.dto';
 import { compare } from 'bcrypt';
 
 @Injectable()
 export class AuthService {
-  constructor(private readonly usersService: UsersService) {}
+  constructor(
+    private readonly usersService: UsersService,
+    @InjectRepository(User)
+    private usersRepository: Repository<User>,
+  ) {}
   async loginRequest(createUserDto: CreateUserDto) {
-    const userExists = await this.usersService.findByName(createUserDto.name);
+    const userExists = await this.usersRepository.findOne({
+      where: { name: createUserDto.name },
+      select: ['id', 'name', 'password'],
+    });
 
     if (!userExists) {
       throw new HttpException('User not found', 404);
@@ -18,9 +28,7 @@ export class AuthService {
       createUserDto.password,
       userExists.password,
     );
-    console.log(passwordMatch);
-    console.log(userExists.password);
-    console.log(createUserDto.password);
+
     if (!passwordMatch) {
       throw new HttpException('Invalid credentials', 401);
     }

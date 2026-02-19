@@ -55,4 +55,9 @@ export class ReservationController {
   ) {
     return this.reservationService.search({ status, date });
   }
+  @Delete(':id')
+  @UseGuards(AuthGuard)
+  delete(@Param('id') id: string) {
+    return this.reservationService.delete(+id);
+  }
 }

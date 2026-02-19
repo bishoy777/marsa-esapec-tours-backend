@@ -77,4 +77,10 @@ export class ReservationService {
       order: { date: 'ASC' },
     });
   }
+  async delete(id: number) {
+    const reservation = await this.reservationRepo.findOne({ where: { id } });
+    if (!reservation) throw new NotFoundException('Reservation not found');
+    await this.reservationRepo.remove(reservation);
+    return { message: `Reservation ${id} deleted successfully` };
+  }
 }
