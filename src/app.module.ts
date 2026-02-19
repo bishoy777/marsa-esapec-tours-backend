@@ -12,6 +12,7 @@ import { TripModule } from './trip/trip.module';
 import { ReservationsModule } from './reservations/reservations.module';
 import { TaxiModule } from './taxi/taxi.module';
 import { TaxibookingModule } from './taxibooking/taxibooking.module';
+import { FaqsModule } from './faqs/faqs.module';
 
 @Module({
   imports: [
@@ -35,6 +36,7 @@ import { TaxibookingModule } from './taxibooking/taxibooking.module';
     ReservationsModule,
     TaxiModule,
     TaxibookingModule,
+    FaqsModule,
   ],
   controllers: [AppController],
   providers: [AppService],

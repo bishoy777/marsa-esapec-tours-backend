@@ -1,15 +1,6 @@
-import {
-  Controller,
-  Get,
-  Post,
-  Body,
-  Patch,
-  Param,
-  Delete,
-} from '@nestjs/common';
+import { Controller, Get, Post, Body, Param, Delete } from '@nestjs/common';
 import { TaxibookingService } from './taxibooking.service';
 import { CreateTaxibookingDto } from './dto/create-taxibooking.dto';
-import { UpdateTaxibookingDto } from './dto/update-taxibooking.dto';
 
 @Controller('taxibooking')
 export class TaxibookingController {
