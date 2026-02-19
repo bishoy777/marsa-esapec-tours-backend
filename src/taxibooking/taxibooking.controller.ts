@@ -1,12 +1,14 @@
 import { Controller, Get, Post, Body, Param, Delete } from '@nestjs/common';
 import { TaxibookingService } from './taxibooking.service';
 import { CreateTaxibookingDto } from './dto/create-taxibooking.dto';
-
+import { UseGuards } from '@nestjs/common';
+import { AuthGuard } from '@/auth/auth.guard';
 @Controller('taxibooking')
 export class TaxibookingController {
   constructor(private readonly taxibookingService: TaxibookingService) {}
 
   @Post()
+  @UseGuards(AuthGuard)
   create(@Body() createTaxibookingDto: CreateTaxibookingDto) {
     return this.taxibookingService.create(createTaxibookingDto);
   }
@@ -20,6 +22,7 @@ export class TaxibookingController {
     return this.taxibookingService.findByTaxi(+taxiId);
   }
   @Delete(':id')
+  @UseGuards(AuthGuard)
   async remove(@Param('id') id: string) {
     await this.taxibookingService.remove(+id);
     return { message: `Taxibooking ${id} deleted successfully` };
