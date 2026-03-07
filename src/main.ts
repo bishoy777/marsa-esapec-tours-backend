@@ -16,5 +16,6 @@ async function bootstrap() {
   );
   const port = process.env.PORT || 3000;
   await app.listen(port, '0.0.0.0');
+  console.log('DB_URL from env:', process.env.DB_URL);
 }
 bootstrap();
