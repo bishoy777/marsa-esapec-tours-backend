@@ -20,7 +20,7 @@ export class TaxibookingController {
   @Get('taxi/:taxiId')
   findByTaxi(@Param('taxiId') taxiId: string) {
     return this.taxibookingService.findByTaxi(+taxiId);
-  }
+  } 
   @Delete(':id')
   @UseGuards(AuthGuard)
   async remove(@Param('id') id: string) {
