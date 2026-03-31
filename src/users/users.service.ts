@@ -34,10 +34,11 @@ export class UsersService {
       process.env.JWT_SECRET || 'token',
     );
   }
-  genrateUserResponse(user: User): IUserResponse {
+  genrateUserResponse(user: User): any {
     return {
       user: {
-        ...user,
+        id: user.id,
+        name: user.name,
         token: this.genrateJWT(user),
       },
     };
