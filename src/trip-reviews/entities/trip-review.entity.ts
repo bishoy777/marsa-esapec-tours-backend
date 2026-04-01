@@ -3,7 +3,7 @@ import { Trip } from '@/trip/entities/trip.entity';
 import { ReviewStatus } from '../enums/review-status.enum';
 
 @Entity()
-export class Review {
+export class TripReview {
   @PrimaryGeneratedColumn()
   id: number;
 
