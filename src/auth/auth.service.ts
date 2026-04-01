@@ -22,7 +22,10 @@ export class AuthService {
     });
 
     if (!userExists) {
-      throw new HttpException('User not found', 404);
+      throw new HttpException(
+        await this.i18n.translate('common.USER_NOT_FOUND'),
+        404,
+      );
     }
 
     const passwordMatch = await compare(
