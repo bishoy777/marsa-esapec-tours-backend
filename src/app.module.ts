@@ -1,6 +1,8 @@
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
+import { I18nModule, QueryResolver, HeaderResolver } from 'nestjs-i18n';
+import * as path from 'path';
 
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { UsersModule } from './users/users.module';
@@ -18,6 +20,17 @@ import { FaqsModule } from './faqs/faqs.module';
   imports: [
     ConfigModule.forRoot({
       isGlobal: true, // ✅ IMPORTANT
+    }),
+    I18nModule.forRoot({
+      fallbackLanguage: 'en',
+      loaderOptions: {
+        path: path.join(__dirname, '/i18n/'),
+        watch: true,
+      },
+      resolvers: [
+        { use: QueryResolver, options: ['lang'] }, // ?lang=en
+        HeaderResolver, // Accept-Language header
+      ],
     }),
     TypeOrmModule.forRoot({
       type: 'postgres',

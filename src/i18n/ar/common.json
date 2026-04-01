@@ -1,0 +1,5 @@
+{
+  "LOGIN_SUCCESS": "Login successful",
+  "INVALID_CREDENTIALS": " بيانات تسحيل الدخول غير صحيحة",
+  "USER_NOT_FOUND": "هذا المستخدم غير موجود"
+}
