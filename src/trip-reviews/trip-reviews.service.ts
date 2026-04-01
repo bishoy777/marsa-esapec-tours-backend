@@ -3,13 +3,13 @@ import { CreateTripReviewDto } from './dto/create-trip-review.dto';
 import { UpdateTripReviewDto } from './dto/update-trip-review.dto';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
-import { Review } from '@/trip-reviews/entities/trip-review.entity';
+import { TripReview } from '@/trip-reviews/entities/trip-review.entity';
 
 @Injectable()
 export class TripReviewsService {
   constructor(
-    @InjectRepository(Review)
-    private readonly tripReviewRepository: Repository<Review>,
+    @InjectRepository(TripReview)
+    private readonly tripReviewRepository: Repository<TripReview>,
   ) {}
 
   create(createTripReviewDto: CreateTripReviewDto) {
