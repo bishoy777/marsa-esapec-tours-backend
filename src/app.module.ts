@@ -25,12 +25,8 @@ import { FaqsModule } from './faqs/faqs.module';
       fallbackLanguage: 'en',
       loaderOptions: {
         path: path.join(__dirname, '/i18n/'),
-        watch: true,
       },
-      resolvers: [
-        { use: QueryResolver, options: ['lang'] }, // ?lang=en
-        HeaderResolver, // Accept-Language header
-      ],
+      resolvers: [new HeaderResolver(['accept-language'])],
     }),
     TypeOrmModule.forRoot({
       type: 'postgres',
