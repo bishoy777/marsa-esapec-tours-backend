@@ -8,6 +8,7 @@ import {
 import { TripType } from '@/trip-type/entities/trip-type.entity';
 import { TripImage } from '@/trip/entities/trip-image.entity';
 import { Reservation } from '@/reservations/entities/reservation.entity';
+import { Review } from '@/trip-reviews/entities/trip-review.entity';
 @Entity()
 export class Trip {
   @PrimaryGeneratedColumn()
@@ -32,4 +33,8 @@ export class Trip {
   images: TripImage[];
   @OneToMany(() => Reservation, (reservation) => reservation.trip)
   reservations: Reservation[];
+  @OneToMany(() => Review, (review) => review.trip, {
+    eager: true, // optional
+  })
+  reviews: Review[];
 }

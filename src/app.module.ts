@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { I18nModule, QueryResolver, HeaderResolver } from 'nestjs-i18n';
+import { I18nModule, HeaderResolver } from 'nestjs-i18n';
 import * as path from 'path';
 
 import { TypeOrmModule } from '@nestjs/typeorm';
@@ -15,11 +15,12 @@ import { ReservationsModule } from './reservations/reservations.module';
 import { TaxiModule } from './taxi/taxi.module';
 import { TaxibookingModule } from './taxibooking/taxibooking.module';
 import { FaqsModule } from './faqs/faqs.module';
+import { TripReviewsModule } from './trip-reviews/trip-reviews.module';
 
 @Module({
   imports: [
     ConfigModule.forRoot({
-      isGlobal: true, // ✅ IMPORTANT
+      isGlobal: true,
     }),
     I18nModule.forRoot({
       fallbackLanguage: 'en',
@@ -32,7 +33,7 @@ import { FaqsModule } from './faqs/faqs.module';
       type: 'postgres',
       url: process.env.DB_URL,
       autoLoadEntities: true,
-      synchronize: false, // ⚠️ dev only
+      synchronize: false,
       ssl: {
         rejectUnauthorized: false, // ✅ required for Supabase
       },
@@ -45,6 +46,7 @@ import { FaqsModule } from './faqs/faqs.module';
     TaxiModule,
     TaxibookingModule,
     FaqsModule,
+    TripReviewsModule,
   ],
   controllers: [AppController],
   providers: [AppService],
