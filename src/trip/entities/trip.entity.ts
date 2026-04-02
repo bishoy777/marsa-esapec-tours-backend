@@ -34,7 +34,8 @@ export class Trip {
   @OneToMany(() => Reservation, (reservation) => reservation.trip)
   reservations: Reservation[];
   @OneToMany(() => TripReview, (review) => review.trip, {
-    eager: true, // optional
+    eager: true,
+    nullable: true, // optional
   })
   reviews: TripReview[];
 }
