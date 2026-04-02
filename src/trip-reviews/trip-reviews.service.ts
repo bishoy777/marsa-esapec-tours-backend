@@ -1,7 +1,4 @@
-import {
-  Injectable,
-  NotFoundException,
-} from '@nestjs/common';
+import { Injectable, NotFoundException } from '@nestjs/common';
 import { CreateTripReviewDto } from './dto/create-trip-review.dto';
 import { UpdateTripReviewDto } from './dto/update-trip-review.dto';
 import { InjectRepository } from '@nestjs/typeorm';
@@ -60,7 +57,6 @@ export class TripReviewsService {
     return review;
   }
 
-  // ✅ UPDATE REVIEW
   async update(id: number, dto: UpdateTripReviewDto) {
     const review = await this.tripReviewRepository.findOne({
       where: { id },
@@ -71,7 +67,7 @@ export class TripReviewsService {
       throw new NotFoundException('Review not found');
     }
 
-    // optional: update trip if tripId provided
+    // Handle trip update separately
     if (dto.tripId) {
       const trip = await this.tripRepository.findOne({
         where: { id: dto.tripId },
@@ -84,11 +80,14 @@ export class TripReviewsService {
       review.trip = trip;
     }
 
-    Object.assign(review, dto);
+    // Remove tripId before assigning (important!)
+    const { tripId, ...rest } = dto;
+
+    // Update remaining fields (including status)
+    Object.assign(review, rest);
 
     return await this.tripReviewRepository.save(review);
   }
-
   // ✅ DELETE REVIEW
   async remove(id: number) {
     const review = await this.tripReviewRepository.findOne({
