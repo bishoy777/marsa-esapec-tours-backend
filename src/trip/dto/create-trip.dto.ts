@@ -37,7 +37,13 @@ export class CreateTripDto {
   @IsNumber()
   @Type(() => Number) // 🔥 IMPORTANT
   tripTypeId?: number;
+  @IsArray()
+  @IsString({ each: true })
+  included: string[];
 
+  @IsArray()
+  @IsString({ each: true })
+  excluded: string[];
   @IsOptional()
   @ValidateNested()
   @Type(() => ProgramDto)
