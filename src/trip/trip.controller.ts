@@ -28,6 +28,9 @@ export class TripController {
     @UploadedFiles() files: Express.Multer.File[],
     @Body() createTripDto: CreateTripDto,
   ) {
+    if (typeof body.program === 'string') {
+      body.program = JSON.parse(body.program);
+    }
     const imageUrls = files?.map((file) => `/uploads/${file.filename}`) || [];
     return this.tripService.create(createTripDto, imageUrls);
   }
