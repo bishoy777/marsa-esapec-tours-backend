@@ -30,10 +30,12 @@ export class CreateTripDto {
   time: Date;
 
   @IsNumber()
+  @Type(() => Number) // 🔥 IMPORTANT
   price: number;
 
   @IsOptional()
   @IsNumber()
+  @Type(() => Number) // 🔥 IMPORTANT
   tripTypeId?: number;
 
   @IsOptional()
