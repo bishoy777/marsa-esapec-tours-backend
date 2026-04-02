@@ -15,24 +15,44 @@ export class TripService {
     private readonly tripImageRepository: Repository<TripImage>,
   ) {}
   async create(dto: CreateTripDto, imageUrls: string[]) {
-    // Save trip
-    const trip = await this.tripsRepository.save({
-      ...dto,
-      tripType: { id: dto.tripTypeId },
+    // Create trip entity (IMPORTANT: use create, not save)
+    const trip = this.tripsRepository.create({
+      name: dto.name,
+      date: dto.date, // or dto.date if you rename it
+      price: dto.price,
+      included: dto.included,
+      excluded: dto.excluded,
+
+      tripType: dto.tripTypeId ? { id: dto.tripTypeId } : undefined,
+
+      // Map multi-day program → TripDay entity
+      days: dto.days?.map((day) => ({
+        dayNumber: day.dayNumber,
+        morning: day.morning,
+        afternoon: day.afternoon,
+        evening: day.evening,
+      })),
     });
+
+    // Save trip (cascade will save days automatically)
+    const savedTrip = await this.tripsRepository.save(trip);
 
     // Save images
     if (imageUrls?.length) {
       const images = imageUrls.map((url) =>
-        this.tripImageRepository.create({ url, trip }),
+        this.tripImageRepository.create({
+          url,
+          trip: savedTrip,
+        }),
       );
+
       await this.tripImageRepository.save(images);
     }
 
-    // Return trip with tripType and images
+    // Return full trip
     return this.tripsRepository.findOne({
-      where: { id: trip.id },
-      relations: ['tripType', 'images'],
+      where: { id: savedTrip.id },
+      relations: ['tripType', 'images', 'days'],
     });
   }
 
@@ -81,8 +101,8 @@ export class TripService {
 
     // Add new images if any
     if (imageUrls?.length) {
-      const newImages = imageUrls.map((url) =>
-        this.tripImageRepository.create({ url, trip }),
+      const newImages = this.tripImageRepository.create(
+        imageUrls.map((url) => ({ url, trip })),
       );
       await this.tripImageRepository.save(newImages);
     }

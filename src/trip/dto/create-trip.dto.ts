@@ -9,6 +9,10 @@ import {
 import { Type } from 'class-transformer';
 
 export class ProgramDto {
+  @IsNumber()
+  @Type(() => Number)
+  dayNumber: number;
+
   @IsArray()
   @IsString({ each: true })
   morning: string[];
@@ -25,18 +29,18 @@ export class ProgramDto {
 export class CreateTripDto {
   @IsString()
   name: string;
-
   @IsDateString()
-  time: Date;
+  date: string;
 
   @IsNumber()
-  @Type(() => Number) // 🔥 IMPORTANT
+  @Type(() => Number)
   price: number;
 
   @IsOptional()
   @IsNumber()
-  @Type(() => Number) // 🔥 IMPORTANT
+  @Type(() => Number)
   tripTypeId?: number;
+
   @IsArray()
   @IsString({ each: true })
   included: string[];
@@ -44,8 +48,11 @@ export class CreateTripDto {
   @IsArray()
   @IsString({ each: true })
   excluded: string[];
+
+  // ✅ MULTI-DAY PROGRAM (IMPORTANT CHANGE)
   @IsOptional()
-  @ValidateNested()
+  @IsArray()
+  @ValidateNested({ each: true })
   @Type(() => ProgramDto)
-  program?: ProgramDto;
+  days?: ProgramDto[];
 }

@@ -9,37 +9,68 @@ import { TripType } from '@/trip-type/entities/trip-type.entity';
 import { TripImage } from '@/trip/entities/trip-image.entity';
 import { Reservation } from '@/reservations/entities/reservation.entity';
 import { TripReview } from '@/trip-reviews/entities/trip-review.entity';
+import { TripDay } from '@/trip/entities/trip-day.entity';
+
 @Entity()
 export class Trip {
   @PrimaryGeneratedColumn()
   id: number;
+
   @Column()
   name: string;
-  @Column()
-  time: Date;
 
-  @Column('decimal')
+  // When the trip happens
+  @Column({ type: 'timestamp' })
+  date: Date;
+
+  // Included items
+  @Column('text', { array: true, default: [] })
+  included: string[];
+
+  // Excluded items
+  @Column('text', { array: true, default: [] })
+  excluded: string[];
+
+  // Price with proper precision
+  @Column('decimal', {
+    precision: 10,
+    scale: 2,
+    transformer: {
+      to: (value: number) => value,
+      from: (value: string) => parseFloat(value),
+    },
+  })
   price: number;
 
-  @Column({ type: 'jsonb', nullable: true })
-  program: {
-    morning: string[];
-    afternoon: string[];
-    evening: string[];
-  };
+  // Multi-day program
+  @OneToMany(() => TripDay, (day) => day.trip, {
+    cascade: true,
+    eager: true,
+  })
+  days: TripDay[];
 
+  // Trip type (single / multi-day)
   @ManyToOne(() => TripType, (tripType) => tripType.trips, {
     eager: true,
-    nullable: true, // ✅ auto load type
+    nullable: true,
   })
   tripType: TripType;
-  @OneToMany(() => TripImage, (image) => image.trip, { eager: true })
+
+  // Images
+  @OneToMany(() => TripImage, (image) => image.trip, {
+    cascade: true,
+    eager: true,
+  })
   images: TripImage[];
+
+  // Reservations
   @OneToMany(() => Reservation, (reservation) => reservation.trip)
   reservations: Reservation[];
+
+  // Reviews
   @OneToMany(() => TripReview, (review) => review.trip, {
+    cascade: true,
     eager: true,
-    nullable: true, // optional
   })
   reviews: TripReview[];
 }
