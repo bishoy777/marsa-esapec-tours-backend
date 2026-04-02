@@ -97,7 +97,6 @@ export class TripReviewsService {
     if (!review) {
       throw new NotFoundException('Review not found');
     }
-
     await this.tripReviewRepository.remove(review);
 
     return {

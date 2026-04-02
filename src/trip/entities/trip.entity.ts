@@ -21,8 +21,12 @@ export class Trip {
   @Column('decimal')
   price: number;
 
-  @Column('text')
-  program: string;
+  @Column({ type: 'jsonb', nullable: true })
+  program: {
+    morning: string[];
+    afternoon: string[];
+    evening: string[];
+  };
 
   @ManyToOne(() => TripType, (tripType) => tripType.trips, {
     eager: true,
