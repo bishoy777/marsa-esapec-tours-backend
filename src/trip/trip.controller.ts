@@ -31,17 +31,11 @@ export class TripController {
     if (typeof body.program === 'string') {
       body.program = JSON.parse(body.program);
     }
+
     const imageUrls = files?.map((file) => `/uploads/${file.filename}`) || [];
     return this.tripService.create(createTripDto, imageUrls);
   }
-  // @Post('upload')
-  // @UseInterceptors(FilesInterceptor('image', 5, multerConfig))
-  // uploadImage(@UploadedFile() file: Express.Multer.File) {
-  //   return {
-  //     filename: file.filename,
-  //     path: file.path,
-  //   };
-  // }
+
   @Get()
   findAll() {
     return this.tripService.findAll();
