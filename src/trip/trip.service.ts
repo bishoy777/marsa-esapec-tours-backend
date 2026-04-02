@@ -43,8 +43,17 @@ export class TripService {
     });
   }
 
-  findOne(id: number) {
-    return `This action returns a #${id} trip`;
+  async findOne(id: number) {
+    const trip = await this.tripsRepository.findOne({
+      where: { id },
+      relations: ['tripType', 'images'],
+    });
+
+    if (!trip) {
+      throw new NotFoundException(`Trip with id ${id} not found`);
+    }
+
+    return trip;
   }
   async findByType(tripTypeId: number) {
     return this.tripsRepository.find({
