@@ -18,8 +18,8 @@ export class Trip {
 
   @Column()
   name: string;
-  @Column()
-  overview: string;
+  @Column('text', { nullable: true })
+  overview: string | null;
 
   // When the trip happens
   @Column({ type: 'timestamp' })
@@ -32,8 +32,8 @@ export class Trip {
   // Excluded items
   @Column('text', { array: true, default: [] })
   excluded: string[];
-  @Column('text', { array: true, default: [] })
-  places: string[];
+  @Column('text', { array: true, default: [], nullable: true })
+  places: string[] | null;
 
   // Price with proper precision
   @Column('decimal', {
