@@ -18,10 +18,12 @@ export class TripService {
     // Create trip entity (IMPORTANT: use create, not save)
     const trip = this.tripsRepository.create({
       name: dto.name,
+      overview: dto.overview,
       date: dto.date, // or dto.date if you rename it
       price: dto.price,
       included: dto.included,
       excluded: dto.excluded,
+      places: dto.places,
 
       tripType: dto.tripTypeId ? { id: dto.tripTypeId } : undefined,
 
