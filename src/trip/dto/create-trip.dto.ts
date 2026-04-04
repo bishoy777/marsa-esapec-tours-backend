@@ -29,6 +29,8 @@ export class ProgramDto {
 export class CreateTripDto {
   @IsString()
   name: string;
+  @IsString()
+  overview: string;
   @IsDateString()
   date: string;
 
@@ -48,6 +50,9 @@ export class CreateTripDto {
   @IsArray()
   @IsString({ each: true })
   excluded: string[];
+  @IsArray()
+  @IsString({ each: true })
+  places: string[];
 
   // ✅ MULTI-DAY PROGRAM (IMPORTANT CHANGE)
   @IsOptional()
