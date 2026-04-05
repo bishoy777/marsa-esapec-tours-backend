@@ -8,9 +8,6 @@ import {
 import { Type } from 'class-transformer';
 
 export class ProgramDto {
-  @IsNumber()
-  @Type(() => Number)
-
   @IsArray()
   @IsString({ each: true })
   morning: string[];
