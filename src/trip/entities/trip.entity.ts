@@ -22,7 +22,7 @@ export class Trip {
   overview: string | null;
 
   // When the trip happens
-  @Column({ type: 'timestamp' })
+  @Column({ type: 'timestamp', default: () => 'CURRENT_TIMESTAMP' })
   date: Date;
 
   // Included items
