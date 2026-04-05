@@ -28,7 +28,7 @@ export class TripService {
       days: dto.days?.map((day) => ({
         morning: day.morning,
         afternoon: day.afternoon,
-        evening: day.evening,
+        evining: day.evining,
       })),
     });
 

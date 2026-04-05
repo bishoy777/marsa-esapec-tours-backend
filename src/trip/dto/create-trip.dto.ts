@@ -18,7 +18,7 @@ export class ProgramDto {
 
   @IsArray()
   @IsString({ each: true })
-  evening: string[];
+  evining: string[];
 }
 
 export class CreateTripDto {

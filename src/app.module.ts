@@ -33,7 +33,7 @@ import { TripReviewsModule } from './trip-reviews/trip-reviews.module';
       type: 'postgres',
       url: process.env.DB_URL,
       autoLoadEntities: true,
-      synchronize: false,
+      synchronize: true,
       ssl: {
         rejectUnauthorized: false, // ✅ required for Supabase
       },
