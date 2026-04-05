@@ -5,10 +5,6 @@ import { Trip } from '@/trip/entities/trip.entity';
 export class TripDay {
   @PrimaryGeneratedColumn()
   id: number;
-
-  @Column()
-  dayNumber: number; // Day 1, Day 2, etc.
-
   @Column('text', { array: true, default: [] })
   morning: string[];
 

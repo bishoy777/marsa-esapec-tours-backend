@@ -19,7 +19,7 @@ export class TripService {
     const trip = this.tripsRepository.create({
       name: dto.name,
       overview: dto.overview,
-      date: dto.date, // or dto.date if you rename it
+
       price: dto.price,
       included: dto.included,
       excluded: dto.excluded,

@@ -31,8 +31,6 @@ export class CreateTripDto {
   name: string;
   @IsString()
   overview: string;
-  @IsDateString()
-  date: string;
 
   @IsNumber()
   @Type(() => Number)
