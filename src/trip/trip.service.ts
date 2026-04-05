@@ -19,17 +19,13 @@ export class TripService {
     const trip = this.tripsRepository.create({
       name: dto.name,
       overview: dto.overview,
-
       price: dto.price,
       included: dto.included,
       excluded: dto.excluded,
       places: dto.places,
-
       tripType: dto.tripTypeId ? { id: dto.tripTypeId } : undefined,
-
       // Map multi-day program → TripDay entity
       days: dto.days?.map((day) => ({
-        dayNumber: day.dayNumber,
         morning: day.morning,
         afternoon: day.afternoon,
         evening: day.evening,
