@@ -1,6 +1,5 @@
 import {
   IsArray,
-  IsDateString,
   IsNumber,
   IsOptional,
   IsString,
@@ -11,7 +10,6 @@ import { Type } from 'class-transformer';
 export class ProgramDto {
   @IsNumber()
   @Type(() => Number)
-  dayNumber: number;
 
   @IsArray()
   @IsString({ each: true })
