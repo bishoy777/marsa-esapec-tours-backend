@@ -12,7 +12,7 @@ export class TripDay {
   afternoon: string[];
 
   @Column('text', { array: true, default: [] })
-  evening: string[];
+  evining: string[];
 
   @ManyToOne(() => Trip, (trip) => trip.days, { onDelete: 'CASCADE' })
   trip: Trip;
