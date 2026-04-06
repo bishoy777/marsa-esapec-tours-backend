@@ -25,7 +25,6 @@ export class TripReviewsService {
     if (!trip) {
       throw new NotFoundException('Trip not found');
     }
-
     const review = this.tripReviewRepository.create({
       userName: dto.userName,
       comment: dto.comment,

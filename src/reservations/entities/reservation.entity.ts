@@ -27,12 +27,18 @@ export class Reservation {
 
   @Column()
   name: string;
+  @Column({ nullable: true })
+  hotel: string;
+  @Column({ nullable: true })
+  specialRequest: string;
 
   @Column()
   phone: string;
 
   @Column()
   peopleCount: number;
+  @Column({ nullable: true })
+  roomNumber: number;
 
   @Column('date')
   date: string;

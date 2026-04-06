@@ -26,6 +26,9 @@ export class ReservationService {
       phone: dto.phone,
       peopleCount: dto.peopleCount,
       date: dto.date,
+      hotel: dto.hotel,
+      roomNumber: dto.roomNumber,
+      specialRequest: dto.specailRequest,
     });
 
     return this.reservationRepo.save(reservation);
