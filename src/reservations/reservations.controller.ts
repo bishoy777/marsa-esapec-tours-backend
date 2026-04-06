@@ -52,8 +52,9 @@ export class ReservationController {
   async search(
     @Query('status') status?: ReservationStatus,
     @Query('date') date?: string,
+    @Query('tripId') tripId?: number,
   ) {
-    return this.reservationService.search({ status, date });
+    return this.reservationService.search({ status, date, tripId });
   }
   @Delete(':id')
   @UseGuards(AuthGuard)
