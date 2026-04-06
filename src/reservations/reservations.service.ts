@@ -28,7 +28,7 @@ export class ReservationService {
       date: dto.date,
       hotel: dto.hotel,
       roomNumber: dto.roomNumber,
-      specialRequest: dto.specailRequest,
+      specialRequest: dto.specialRequest,
     });
 
     return this.reservationRepo.save(reservation);

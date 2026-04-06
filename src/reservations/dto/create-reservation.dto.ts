@@ -19,7 +19,7 @@ export class CreateReservationDto {
   phone: string;
   @IsString()
   @IsOptional()
-  specailRequest: string;
+  specialRequest: string;
 
   @IsNumber()
   peopleCount: number;
