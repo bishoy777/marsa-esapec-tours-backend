@@ -71,7 +71,8 @@ export class ReservationService {
   }) {
     const query = this.reservationRepo
       .createQueryBuilder('reservation')
-      .leftJoinAndSelect('reservation.trip', 'trip');
+      .leftJoinAndSelect('reservation.trip', 'trip')
+      .leftJoinAndSelect('trip.tripType', 'tripType');
 
     if (filters.status) {
       query.andWhere('reservation.status = :status', {
