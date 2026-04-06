@@ -63,22 +63,41 @@ export class ReservationService {
 
     return reservation;
   }
-  async search(filters: { status?: ReservationStatus; date?: string }) {
-    const where: FindOptionsWhere<Reservation> = {};
+  async search(filters: {
+    status?: ReservationStatus;
+    date?: string;
+    tripId?: number;
+    name?: string;
+  }) {
+    const query = this.reservationRepo
+      .createQueryBuilder('reservation')
+      .leftJoinAndSelect('reservation.trip', 'trip');
 
     if (filters.status) {
-      where.status = filters.status;
+      query.andWhere('reservation.status = :status', {
+        status: filters.status,
+      });
     }
 
     if (filters.date) {
-      where.date = filters.date;
+      query.andWhere('reservation.date = :date', {
+        date: filters.date,
+      });
     }
 
-    return this.reservationRepo.find({
-      where,
-      relations: ['trip'],
-      order: { date: 'ASC' },
-    });
+    if (filters.tripId) {
+      query.andWhere('trip.id = :tripId', {
+        tripId: filters.tripId,
+      });
+    }
+
+    if (filters.name) {
+      query.andWhere('reservation.name LIKE :name', {
+        name: `%${filters.name}%`, // partial search
+      });
+    }
+
+    return query.orderBy('reservation.date', 'ASC').getMany();
   }
   async delete(id: number) {
     const reservation = await this.reservationRepo.findOne({ where: { id } });
