@@ -3,8 +3,10 @@ import {
   OneToMany,
   Entity,
   ManyToOne,
+  ManyToMany,
   PrimaryGeneratedColumn,
 } from 'typeorm';
+import { Package } from '@/packages/entities/package.entity';
 import { TripType } from '@/trip-type/entities/trip-type.entity';
 import { TripImage } from '@/trip/entities/trip-image.entity';
 import { Reservation } from '@/reservations/entities/reservation.entity';
@@ -77,4 +79,7 @@ export class Trip {
     eager: true,
   })
   reviews: TripReview[];
+
+  @ManyToMany(() => Package, (pkg: Package) => pkg.trips)
+  packages: Package[];
 }

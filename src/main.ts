@@ -14,7 +14,7 @@ async function bootstrap() {
       transform: true, // auto-transform types
     }),
   );
-  const port = process.env.PORT || 3000;
+  const port = process.env.PORT || 1000;
   app.enableCors();
   await app.listen(port, '0.0.0.0');
   console.log('DB_URL from env:', process.env.DB_URL);

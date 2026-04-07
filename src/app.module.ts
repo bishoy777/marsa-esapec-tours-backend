@@ -16,6 +16,7 @@ import { TaxiModule } from './taxi/taxi.module';
 import { TaxibookingModule } from './taxibooking/taxibooking.module';
 import { FaqsModule } from './faqs/faqs.module';
 import { TripReviewsModule } from './trip-reviews/trip-reviews.module';
+import { PackageModule } from './packages/packages.module';
 
 @Module({
   imports: [
@@ -31,12 +32,18 @@ import { TripReviewsModule } from './trip-reviews/trip-reviews.module';
     }),
     TypeOrmModule.forRoot({
       type: 'postgres',
-      url: process.env.DB_URL,
+      // url: process.env.DB_URL,
+
+      host: 'localhost',
+      port: 5432,
+      username: 'postgres',
+      password: '1032001',
+      database: 'marsascape',
       autoLoadEntities: true,
-      synchronize: false,
-      ssl: {
-        rejectUnauthorized: false, // ✅ required for Supabase
-      },
+      synchronize: true,
+      // ssl: {
+      //   rejectUnauthorized: false, // ✅ required for Supabase
+      // },
     }),
     UsersModule,
     AuthModule,
@@ -47,6 +54,7 @@ import { TripReviewsModule } from './trip-reviews/trip-reviews.module';
     TaxibookingModule,
     FaqsModule,
     TripReviewsModule,
+    PackageModule,
   ],
   controllers: [AppController],
   providers: [AppService],
