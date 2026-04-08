@@ -2,28 +2,39 @@ import {
   IsNotEmpty,
   IsString,
   IsNumber,
-  IsBoolean,
   IsDateString,
+  IsOptional,
 } from 'class-validator';
 export class CreateTaxibookingDto {
   @IsString()
   @IsNotEmpty()
   name: string;
-
+  @IsString()
+  date: string;
   @IsString()
   @IsNotEmpty()
   phone: string;
+  @IsString()
+  @IsNotEmpty()
+  carType: string;
+  @IsString()
+  @IsNotEmpty()
+  totalPrice: string;
 
   @IsNumber()
   @IsNotEmpty()
   peopleCount: number;
 
-  @IsDateString()
-  @IsNotEmpty()
-  tripDate: string;
+  @IsNumber()
+  @IsOptional()
+  simCards: number;
 
-  @IsBoolean()
-  askForSim?: boolean;
+  @IsString()
+  @IsOptional()
+  simCapacity?: string;
+  @IsString()
+  @IsOptional()
+  specialRequest?: string;
 
   @IsNumber()
   @IsNotEmpty()

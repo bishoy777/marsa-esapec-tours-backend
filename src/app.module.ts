@@ -17,6 +17,7 @@ import { TaxibookingModule } from './taxibooking/taxibooking.module';
 import { FaqsModule } from './faqs/faqs.module';
 import { TripReviewsModule } from './trip-reviews/trip-reviews.module';
 import { PackageModule } from './packages/packages.module';
+import { SimcardModule } from './simcard/simcard.module';
 
 @Module({
   imports: [
@@ -55,6 +56,7 @@ import { PackageModule } from './packages/packages.module';
     FaqsModule,
     TripReviewsModule,
     PackageModule,
+    SimcardModule,
   ],
   controllers: [AppController],
   providers: [AppService],

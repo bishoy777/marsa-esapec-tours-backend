@@ -12,9 +12,14 @@ export class Taxibooking {
   id: number;
   @Column()
   name: string;
-
+  @Column()
+  date: string;
   @Column()
   phone: string;
+  @Column()
+  totalPrice: string;
+  @Column()
+  carType: string;
 
   @Column()
   peopleCount: number;
@@ -25,6 +30,10 @@ export class Taxibooking {
   taxi: Taxi;
   @CreateDateColumn()
   createdAt: Date;
-  @Column({ default: false })
-  askForSim: boolean;
+  @Column({ default: '', nullable: true })
+  simCapacity: string;
+  @Column({ nullable: true })
+  simCards: number;
+  @Column({ default: '', nullable: true })
+  specialRequest: string;
 }

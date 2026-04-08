@@ -6,8 +6,6 @@ export class CreateTaxiDto {
   @IsString()
   @IsNotEmpty()
   to: string;
-  @IsString()
-  specialRequest: string;
   @IsNumber()
   @IsNotEmpty()
   HighSprice: number;

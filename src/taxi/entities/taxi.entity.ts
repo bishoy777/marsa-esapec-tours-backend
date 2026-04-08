@@ -11,8 +11,7 @@ export class Taxi {
 
   @Column()
   to: string;
-  @Column({ nullable: true })
-  specialRequest: string;
+
   @Column()
   isHotel: boolean;
 
