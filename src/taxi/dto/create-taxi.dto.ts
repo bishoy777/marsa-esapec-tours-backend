@@ -1,4 +1,4 @@
-import { IsString, IsNotEmpty, IsNumber } from 'class-validator';
+import { IsString, IsNotEmpty, IsNumber, IsBoolean } from 'class-validator';
 export class CreateTaxiDto {
   @IsString()
   @IsNotEmpty()
@@ -6,7 +6,15 @@ export class CreateTaxiDto {
   @IsString()
   @IsNotEmpty()
   to: string;
+  @IsString()
+  specialRequest: string;
   @IsNumber()
   @IsNotEmpty()
-  price: number;
+  HighSprice: number;
+  @IsNumber()
+  @IsNotEmpty()
+  sedanPrice: number;
+  @IsBoolean()
+  @IsNotEmpty()
+  isHotel: boolean;
 }

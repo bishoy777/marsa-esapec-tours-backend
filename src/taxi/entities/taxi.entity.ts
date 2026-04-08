@@ -11,9 +11,15 @@ export class Taxi {
 
   @Column()
   to: string;
+  @Column({ nullable: true })
+  specialRequest: string;
+  @Column()
+  isHotel: boolean;
 
   @Column('decimal')
-  price: number;
+  sedanPrice: number;
+  @Column('decimal')
+  HighSprice: number;
   @OneToMany(() => Taxibooking, (booking) => booking.taxi)
   bookings: Taxibooking[];
 }
