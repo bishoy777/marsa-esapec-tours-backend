@@ -6,6 +6,7 @@ import {
   Patch,
   Param,
   Delete,
+  Query,
 } from '@nestjs/common';
 import { TripReviewsService } from './trip-reviews.service';
 import { CreateTripReviewDto } from './dto/create-trip-review.dto';
@@ -21,8 +22,11 @@ export class TripReviewsController {
   }
 
   @Get()
-  findAll() {
-    return this.tripReviewsService.findAll();
+  findAll(
+    @Query('page') page: string = '1',
+    @Query('perPage') perPage: string = '10',
+  ) {
+    return this.tripReviewsService.findAll(+page, +perPage);
   }
 
   @Get(':id')

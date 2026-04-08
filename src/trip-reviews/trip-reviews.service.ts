@@ -36,10 +36,21 @@ export class TripReviewsService {
   }
 
   // ✅ GET ALL REVIEWS
-  async findAll() {
-    return await this.tripReviewRepository.find({
-      relations: ['trip'], // optional
+  async findAll(page = 1, perPage = 10) {
+    perPage = Math.min(perPage, 50);
+    const [data, total] = await this.tripReviewRepository.findAndCount({
+      relations: ['trip'],
+      skip: (page - 1) * perPage,
+      take: perPage,
     });
+    return {
+      data,
+      pagination: {
+        total,
+        page,
+        perPage,
+      },
+    };
   }
 
   // ✅ GET ONE REVIEW

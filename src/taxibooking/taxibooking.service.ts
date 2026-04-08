@@ -29,8 +29,21 @@ export class TaxibookingService {
     return this.taxibookingRepo.save(booking);
   }
 
-  findAll() {
-    return this.taxibookingRepo.find({ relations: ['taxi'] });
+  async findAll(page = 1, perPage = 10) {
+    perPage = Math.min(perPage, 50);
+    const [data, total] = await this.taxibookingRepo.findAndCount({
+      relations: ['taxi'],
+      skip: (page - 1) * perPage,
+      take: perPage,
+    });
+    return {
+      data,
+      pagination: {
+        total,
+        page,
+        perPage,
+      },
+    };
   }
 
   async findByTaxi(taxiId: number) {

@@ -36,8 +36,22 @@ export class PackageService {
   }
 
   // ✅ Get all
-  async findAll() {
-    return this.packageRepo.find(); // eager already loads trips
+  async findAll(page = 1, perPage = 10) {
+    perPage = Math.min(perPage, 50); // prevent abuse
+
+    const [data, total] = await this.packageRepo.findAndCount({
+      relations: ['trips'],
+      skip: (page - 1) * perPage,
+      take: perPage,
+    });
+    return {
+      data,
+      pagination: {
+        total,
+        page,
+        perPage,
+      },
+    };
   }
 
   // ✅ Get one

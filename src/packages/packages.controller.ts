@@ -6,6 +6,7 @@ import {
   Param,
   Delete,
   Put,
+  Query,
 } from '@nestjs/common';
 import { PackageService } from './packages.service';
 import { CreatePackageDto } from './dto/create-package.dto';
@@ -21,8 +22,13 @@ export class PackageController {
   }
 
   @Get()
-  findAll() {
-    return this.packageService.findAll();
+  findAll(
+    @Query('page') page: string = '1',
+    @Query('perPage') perPage: string = '10',
+  ) {
+    {
+      return this.packageService.findAll(+page, +perPage);
+    }
   }
 
   @Get(':id')

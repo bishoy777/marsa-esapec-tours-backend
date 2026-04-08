@@ -55,10 +55,23 @@ export class TripService {
   }
 
   // Find all trips with images
-  async findAll() {
-    return this.tripsRepository.find({
+  async findAll(page = 1, perPage = 10) {
+    perPage = Math.min(perPage, 50); // prevent abuse
+
+    const [data, total] = await this.tripsRepository.findAndCount({
       relations: ['tripType', 'images'],
+      skip: (page - 1) * perPage,
+      take: perPage,
     });
+
+    return {
+      data,
+      pagination: {
+        total,
+        page,
+        perPage,
+      },
+    };
   }
 
   async findOne(id: number) {

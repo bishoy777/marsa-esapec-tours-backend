@@ -6,6 +6,7 @@ import {
   Param,
   Delete,
   Put,
+  Query,
 } from '@nestjs/common';
 import { TripTypeService } from './trip-type.service';
 import { CreateTripTypeDto } from './dto/create-trip-type.dto';

@@ -17,8 +17,20 @@ export class TaxiService {
     return this.taxiRepository.save(taxi);
   }
 
-  findAll() {
-    return this.taxiRepository.find();
+  async findAll(page = 1, perPage = 10) {
+    perPage = Math.min(perPage, 50);
+    const [data, total] = await this.taxiRepository.findAndCount({
+      skip: (page - 1) * perPage,
+      take: perPage,
+    });
+    return {
+      data,
+      pagination: {
+        total,
+        page,
+        perPage,
+      },
+    };
   }
 
   findOne(id: number) {

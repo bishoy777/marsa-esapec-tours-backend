@@ -16,8 +16,20 @@ export class SimcardService {
     return this.simRepo.save(sim);
   }
 
-  async findAll() {
-    return this.simRepo.find();
+  async findAll(page = 1, perPage = 10) {
+    perPage = Math.min(perPage, 50);
+    const [data, total] = await this.simRepo.findAndCount({
+      skip: (page - 1) * perPage,
+      take: perPage,
+    });
+    return {
+      data,
+      pagination: {
+        total,
+        page,
+        perPage,
+      },
+    };
   }
 
   async remove(id: number) {

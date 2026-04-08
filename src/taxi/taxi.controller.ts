@@ -6,6 +6,7 @@ import {
   Patch,
   Param,
   Delete,
+  Query,
 } from '@nestjs/common';
 import { TaxiService } from './taxi.service';
 import { CreateTaxiDto } from './dto/create-taxi.dto';
@@ -23,8 +24,11 @@ export class TaxiController {
   }
 
   @Get()
-  findAll() {
-    return this.taxiService.findAll();
+  findAll(
+    @Query('page') page: string = '1',
+    @Query('perPage') perPage: string = '10',
+  ) {
+    return this.taxiService.findAll(+page, +perPage);
   }
 
   @Get(':id')

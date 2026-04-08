@@ -25,8 +25,11 @@ export class ReservationController {
 
   // Get all reservations (admin)
   @Get()
-  findAll() {
-    return this.reservationService.findAll();
+  findAll(
+    @Query('page') page: string = '1',
+    @Query('perPage') perPage: string = '10',
+  ) {
+    return this.reservationService.findAll(+page, +perPage);
   }
 
   // Get reservations for a specific trip

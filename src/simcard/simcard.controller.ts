@@ -1,4 +1,12 @@
-import { Controller, Get, Post, Body, Delete, Param } from '@nestjs/common';
+import {
+  Controller,
+  Get,
+  Post,
+  Body,
+  Delete,
+  Param,
+  Query,
+} from '@nestjs/common';
 import { SimcardService } from './simcard.service';
 import { CreateSimcardDto } from './dto/create-simcard.dto';
 
@@ -12,8 +20,11 @@ export class SimcardController {
   }
 
   @Get()
-  findAll() {
-    return this.simService.findAll();
+  findAll(
+    @Query('page') page: string = '1',
+    @Query('perPage') perPage: string = '10',
+  ) {
+    return this.simService.findAll(+page, +perPage);
   }
 
   @Delete(':id')

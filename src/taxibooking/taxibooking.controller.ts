@@ -1,4 +1,12 @@
-import { Controller, Get, Post, Body, Param, Delete } from '@nestjs/common';
+import {
+  Controller,
+  Get,
+  Query,
+  Post,
+  Body,
+  Param,
+  Delete,
+} from '@nestjs/common';
 import { TaxibookingService } from './taxibooking.service';
 import { CreateTaxibookingDto } from './dto/create-taxibooking.dto';
 import { UseGuards } from '@nestjs/common';
@@ -14,13 +22,16 @@ export class TaxibookingController {
   }
 
   @Get()
-  findAll() {
-    return this.taxibookingService.findAll();
+  findAll(
+    @Query('page') page: string = '1',
+    @Query('perPage') perPage: string = '10',
+  ) {
+    return this.taxibookingService.findAll(+page, +perPage);
   }
   @Get('taxi/:taxiId')
   findByTaxi(@Param('taxiId') taxiId: string) {
     return this.taxibookingService.findByTaxi(+taxiId);
-  } 
+  }
   @Delete(':id')
   @UseGuards(AuthGuard)
   async remove(@Param('id') id: string) {
