@@ -18,6 +18,8 @@ import { FaqsModule } from './faqs/faqs.module';
 import { TripReviewsModule } from './trip-reviews/trip-reviews.module';
 import { PackageModule } from './packages/packages.module';
 import { SimcardModule } from './simcard/simcard.module';
+import { SimcardreviewsModule } from './simcardreviews/simcardreviews.module';
+import { TaxireviewsModule } from './taxireviews/taxireviews.module';
 
 @Module({
   imports: [
@@ -57,6 +59,8 @@ import { SimcardModule } from './simcard/simcard.module';
     TripReviewsModule,
     PackageModule,
     SimcardModule,
+    SimcardreviewsModule,
+    TaxireviewsModule,
   ],
   controllers: [AppController],
   providers: [AppService],
