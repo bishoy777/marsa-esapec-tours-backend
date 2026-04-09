@@ -22,6 +22,7 @@ import { SimcardreviewsModule } from './simcardreviews/simcardreviews.module';
 import { TaxireviewsModule } from './taxireviews/taxireviews.module';
 import { TaxifaqsModule } from './taxifaqs/taxifaqs.module';
 import { SimfaqsModule } from './simfaqs/simfaqs.module';
+import { SimreservationModule } from './simreservation/simreservation.module';
 
 @Module({
   imports: [
@@ -65,6 +66,7 @@ import { SimfaqsModule } from './simfaqs/simfaqs.module';
     TaxireviewsModule,
     TaxifaqsModule,
     SimfaqsModule,
+    SimreservationModule,
   ],
   controllers: [AppController],
   providers: [AppService],
