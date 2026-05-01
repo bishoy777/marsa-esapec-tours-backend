@@ -34,6 +34,9 @@ export class Taxibooking {
   simCapacity: string;
   @Column({ nullable: true })
   simCards: number;
+
+  @Column({ default: null, nullable: true })
+  flightroomNumber: number;
   @Column({ default: '', nullable: true })
   specialRequest: string;
 }

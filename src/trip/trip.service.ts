@@ -5,7 +5,7 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { UpdateTripDto } from './dto/update-trip.dto';
 import { Trip } from './entities/trip.entity';
 import { TripImage } from '@/trip/entities/trip-image.entity';
-
+import { ILike } from 'typeorm';
 @Injectable()
 export class TripService {
   constructor(
@@ -55,11 +55,15 @@ export class TripService {
   }
 
   // Find all trips with images
-  async findAll(page = 1, perPage = 10) {
-    perPage = Math.min(perPage, 50); // prevent abuse
+
+  async findAll(page = 1, perPage = 10, name?: string) {
+    perPage = Math.min(perPage, 50);
+
+    const where = name ? { name: ILike(`%${name}%`) } : {};
 
     const [data, total] = await this.tripsRepository.findAndCount({
       relations: ['tripType', 'images'],
+      where,
       skip: (page - 1) * perPage,
       take: perPage,
     });

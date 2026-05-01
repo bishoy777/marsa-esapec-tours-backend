@@ -1,4 +1,8 @@
-import { Injectable, NotFoundException } from '@nestjs/common';
+import {
+  Injectable,
+  NotFoundException,
+  InternalServerErrorException,
+} from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository, FindOptionsWhere } from 'typeorm';
 import { Reservation } from './entities/reservation.entity';
@@ -51,7 +55,23 @@ export class ReservationService {
       },
     };
   }
+  async findOne(id: number) {
+    try {
+      const reservation = await this.reservationRepo.findOne({
+        where: { id },
+        relations: ['trip', 'trip.images', 'trip.tripType'],
+      });
 
+      if (!reservation) {
+        throw new NotFoundException(`Reservation ${id} not found`);
+      }
+
+      return reservation;
+    } catch (error) {
+      console.error('Reservation findOne error:', error);
+      throw new InternalServerErrorException('Failed to fetch reservation');
+    }
+  }
   // Get reservations by trip
   async findByTrip(tripId: number) {
     return this.reservationRepo.find({

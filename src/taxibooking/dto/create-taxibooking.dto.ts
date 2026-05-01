@@ -24,6 +24,9 @@ export class CreateTaxibookingDto {
   @IsNumber()
   @IsNotEmpty()
   peopleCount: number;
+  @IsNumber()
+  @IsNotEmpty()
+  flightroomNumber: number;
 
   @IsNumber()
   @IsOptional()

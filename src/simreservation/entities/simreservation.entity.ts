@@ -26,7 +26,6 @@ export class SimReservation {
 
   @Column()
   roomNumber: string;
-
   @Column()
   hotelName: string;
 

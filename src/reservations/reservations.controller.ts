@@ -37,7 +37,10 @@ export class ReservationController {
   findByTrip(@Param('tripId') tripId: string) {
     return this.reservationService.findByTrip(+tripId);
   }
-
+  @Get(':id')
+  findOne(@Param('id') id: string) {
+    return this.reservationService.findOne(+id);
+  }
   // Delete reservation
   @Delete(':id')
   remove(@Param('id') id: string) {

@@ -36,8 +36,9 @@ export class TripController {
   findAll(
     @Query('page') page: string = '1',
     @Query('perPage') perPage: string = '10',
+    @Query('name') name?: string,
   ) {
-    return this.tripService.findAll(+page, +perPage);
+    return this.tripService.findAll(+page, +perPage, name);
   }
 
   @Get('search')
