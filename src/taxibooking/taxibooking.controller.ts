@@ -28,6 +28,10 @@ export class TaxibookingController {
   ) {
     return this.taxibookingService.findAll(+page, +perPage);
   }
+  @Get(':id')
+  findOne(@Param('id') id: string) {
+    return this.taxibookingService.findOne(+id);
+  }
   @Get('taxi/:taxiId')
   findByTaxi(@Param('taxiId') taxiId: string) {
     return this.taxibookingService.findByTaxi(+taxiId);

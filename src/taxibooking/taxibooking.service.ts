@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable, NotFoundException } from '@nestjs/common';
 import { CreateTaxibookingDto } from './dto/create-taxibooking.dto';
 
 import { InjectRepository } from '@nestjs/typeorm';
@@ -45,7 +45,18 @@ export class TaxibookingService {
       },
     };
   }
+  async findOne(id: number) {
+    const reservation = await this.taxibookingRepo.findOne({
+      where: { id },
+      relations: ['taxi'], // include relation if needed
+    });
 
+    if (!reservation) {
+      throw new NotFoundException('Reservation not found');
+    }
+
+    return reservation;
+  }
   async findByTaxi(taxiId: number) {
     return await this.taxibookingRepo.find({
       where: {
