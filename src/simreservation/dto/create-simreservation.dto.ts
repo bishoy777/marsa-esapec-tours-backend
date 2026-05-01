@@ -22,11 +22,10 @@ export class CreateSimreservationDto {
   @IsDateString()
   date: string;
 
-  @IsString()
-  roomNumber: string;
-
-  @IsString()
-  hotelName: string;
+  @IsNumber()
+  roomNumber: number;
+  @IsNumber()
+  price: number;
 
   @IsString()
   fullName: string;
