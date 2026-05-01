@@ -18,8 +18,20 @@ export class SimreservationService {
     return await this.repo.save(reservation);
   }
 
-  async findAll() {
-    return await this.repo.find({ order: { id: 'DESC' } });
+  async findAll(page: number = 1, perPage: number = 10) {
+    const [data, total] = await this.repo.findAndCount({
+      order: { id: 'DESC' },
+      skip: (page - 1) * perPage,
+      take: perPage,
+    });
+
+    return {
+      data,
+      total,
+      page,
+      perPage,
+      lastPage: Math.ceil(total / perPage),
+    };
   }
 
   async findOne(id: number) {

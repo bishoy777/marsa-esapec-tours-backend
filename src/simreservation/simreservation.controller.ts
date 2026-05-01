@@ -6,6 +6,7 @@ import {
   Patch,
   Param,
   Delete,
+  Query,
 } from '@nestjs/common';
 import { SimreservationService } from './simreservation.service';
 import { CreateSimreservationDto } from './dto/create-simreservation.dto';
@@ -21,8 +22,11 @@ export class SimreservationController {
   }
 
   @Get()
-  findAll() {
-    return this.simreservationService.findAll();
+  findAll(
+    @Query('page') page: string = '1',
+    @Query('perPage') perPage: string = '10',
+  ) {
+    return this.simreservationService.findAll(+page, +perPage);
   }
 
   @Get(':id')
