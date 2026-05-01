@@ -6,6 +6,7 @@ import {
   Patch,
   Param,
   Delete,
+  Query,
 } from '@nestjs/common';
 import { packagereservationService } from './packagereservation.service';
 import { CreatepackagereservationDto } from './dto/create-packagereservation.dto';
@@ -26,8 +27,11 @@ export class packagereservationController {
   }
 
   @Get()
-  findAll() {
-    return this.packagereservationService.findAll();
+  findAll(
+    @Query('page') page: string = '1',
+    @Query('perPage') perPage: string = '10',
+  ) {
+    return this.packagereservationService.findAll(+page, +perPage);
   }
 
   @Get(':id')
