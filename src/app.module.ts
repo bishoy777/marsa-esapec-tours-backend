@@ -46,8 +46,8 @@ import { PackagereservationModule } from './packagereservation/packagereservatio
       // username: 'postgres',
       // password: '1032001',
       // database: 'marsascape',
-      // autoLoadEntities: true,
-      // synchronize: true,
+      autoLoadEntities: true,
+      synchronize: false,
       ssl: {
         rejectUnauthorized: false, // ✅ required for Supabase
       },
