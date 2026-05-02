@@ -16,7 +16,6 @@ export class TaxibookingController {
   constructor(private readonly taxibookingService: TaxibookingService) {}
 
   @Post()
-  @UseGuards(AuthGuard)
   create(@Body() createTaxibookingDto: CreateTaxibookingDto) {
     return this.taxibookingService.create(createTaxibookingDto);
   }
