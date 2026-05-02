@@ -39,6 +39,9 @@ export class packagereservation {
 
   @Column({ nullable: true })
   roomNumber: number;
+  
+  @Column({ nullable: true })
+  price: number;
 
   @Column({ nullable: true })
   specialRequest: string;

@@ -39,18 +39,18 @@ import { PackagereservationModule } from './packagereservation/packagereservatio
     }),
     TypeOrmModule.forRoot({
       type: 'postgres',
-      // url: process.env.DB_URL,
+      url: process.env.DB_URL,
 
-      host: 'localhost',
-      port: 5432,
-      username: 'postgres',
-      password: '1032001',
-      database: 'marsascape',
-      autoLoadEntities: true,
-      synchronize: true,
-      // ssl: {
-      //   rejectUnauthorized: false, // ✅ required for Supabase
-      // },
+      // host: 'localhost',
+      // port: 5432,
+      // username: 'postgres',
+      // password: '1032001',
+      // database: 'marsascape',
+      // autoLoadEntities: true,
+      // synchronize: true,
+      ssl: {
+        rejectUnauthorized: false, // ✅ required for Supabase
+      },
     }),
     UsersModule,
     AuthModule,

@@ -21,6 +21,8 @@ export class CreatepackagereservationDto {
 
   @IsNumber()
   peopleCount: number;
+  @IsNumber()
+  price: number;
 
   @IsOptional()
   @IsString()
