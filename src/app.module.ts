@@ -51,6 +51,12 @@ import { PackagereservationModule } from './packagereservation/packagereservatio
       ssl: {
         rejectUnauthorized: false, // ✅ required for Supabase
       },
+      extra: {
+        ssl: {
+          rejectUnauthorized: false,
+        },
+      },
+
     }),
     UsersModule,
     AuthModule,
