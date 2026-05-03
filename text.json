@@ -1,0 +1,5945 @@
+[
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "Shams Alam Beach Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "Gorgonia Beach Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "Shams Alam Beach Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "Gorgonia Beach Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "Shams Alam Beach Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "Gorgonia Beach Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "Fantazia Resort Marsa Alam",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "Serena Beach Resort Marsa Alam",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "Sunrise Anjum Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "Reef Oasis Suakin Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "Gemma Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "Dream Lagoon Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "True Beach Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "Marsa Nakari Village",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "Fantazia Resort Marsa Alam",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "Serena Beach Resort Marsa Alam",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "Sunrise Anjum Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "Reef Oasis Suakin Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "Gemma Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "Dream Lagoon Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "True Beach Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "Marsa Nakari Village",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "Fantazia Resort Marsa Alam",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "Serena Beach Resort Marsa Alam",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "Sunrise Anjum Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "Reef Oasis Suakin Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "Gemma Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "Dream Lagoon Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "True Beach Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "Marsa Nakari Village",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "Tondoba Area",
+    "HighSprice": 65,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "Tondoba Area",
+    "HighSprice": 65,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "Tondoba Area",
+    "HighSprice": 65,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "Aurora Bay Resort",
+    "HighSprice": 65,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "Beach Safari Nubian Resort",
+    "HighSprice": 65,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "Aurora Bay Resort",
+    "HighSprice": 65,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "Beach Safari Nubian Resort",
+    "HighSprice": 65,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "Aurora Bay Resort",
+    "HighSprice": 65,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "Beach Safari Nubian Resort",
+    "HighSprice": 65,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "Brayka Bay Resort",
+    "HighSprice": 60,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "Brayka Lagoon Resort",
+    "HighSprice": 60,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "Amarina Queen Resort",
+    "HighSprice": 60,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "Royal Brayka Beach Resort",
+    "HighSprice": 60,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "Blue Reef Resort",
+    "HighSprice": 60,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "Crystal Beach Resort",
+    "HighSprice": 60,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "Alexander The Great Resort",
+    "HighSprice": 60,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "Brayka Bay Resort",
+    "HighSprice": 60,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "Brayka Lagoon Resort",
+    "HighSprice": 60,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "Amarina Queen Resort",
+    "HighSprice": 60,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "Royal Brayka Beach Resort",
+    "HighSprice": 60,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "Blue Reef Resort",
+    "HighSprice": 60,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "Crystal Beach Resort",
+    "HighSprice": 60,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "Alexander The Great Resort",
+    "HighSprice": 60,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "Brayka Bay Resort",
+    "HighSprice": 60,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "Brayka Lagoon Resort",
+    "HighSprice": 60,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "Amarina Queen Resort",
+    "HighSprice": 60,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "Royal Brayka Beach Resort",
+    "HighSprice": 60,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "Blue Reef Resort",
+    "HighSprice": 60,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "Crystal Beach Resort",
+    "HighSprice": 60,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "Alexander The Great Resort",
+    "HighSprice": 60,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "Marsa Shagra Village",
+    "HighSprice": 65,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "Porto Fino Marsa Alam",
+    "HighSprice": 65,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "Vita Resort",
+    "HighSprice": 65,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "Marsa Shagra Village",
+    "HighSprice": 65,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "Porto Fino Marsa Alam",
+    "HighSprice": 65,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "Vita Resort",
+    "HighSprice": 65,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "Marsa Shagra Village",
+    "HighSprice": 65,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "Porto Fino Marsa Alam",
+    "HighSprice": 65,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "Vita Resort",
+    "HighSprice": 65,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "The Oasis Hotel",
+    "HighSprice": 65,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "Wadi Sabarah Lodge",
+    "HighSprice": 65,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "Blend Elphistone Resort",
+    "HighSprice": 65,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "The Oasis Hotel",
+    "HighSprice": 65,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "Wadi Sabarah Lodge",
+    "HighSprice": 65,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "Blend Elphistone Resort",
+    "HighSprice": 65,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "The Oasis Hotel",
+    "HighSprice": 65,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "Wadi Sabarah Lodge",
+    "HighSprice": 65,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "Blend Elphistone Resort",
+    "HighSprice": 65,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "Sataya Resort",
+    "HighSprice": 70,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "Iconic Resort Marsa Alam",
+    "HighSprice": 70,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "Malikia Resort Abu Dabbab",
+    "HighSprice": 70,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "Abu Dabbab Lodge",
+    "HighSprice": 70,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "Hilton Marsa Alam Nubian Resort",
+    "HighSprice": 70,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "Sataya Resort",
+    "HighSprice": 70,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "Iconic Resort Marsa Alam",
+    "HighSprice": 70,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "Malikia Resort Abu Dabbab",
+    "HighSprice": 70,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "Abu Dabbab Lodge",
+    "HighSprice": 70,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "Hilton Marsa Alam Nubian Resort",
+    "HighSprice": 70,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "Sataya Resort",
+    "HighSprice": 70,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "Iconic Resort Marsa Alam",
+    "HighSprice": 70,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "Malikia Resort Abu Dabbab",
+    "HighSprice": 70,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "Abu Dabbab Lodge",
+    "HighSprice": 70,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "Hilton Marsa Alam Nubian Resort",
+    "HighSprice": 70,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "Happy Life Beach Resort",
+    "HighSprice": 70,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "Concorde Moreen Beach Resort",
+    "HighSprice": 70,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "Oyster Bay Resort",
+    "HighSprice": 70,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "Bliss Nada Beach Resort",
+    "HighSprice": 70,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "Shoni Bay Resort",
+    "HighSprice": 70,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "Casa Mare Resort",
+    "HighSprice": 70,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "Casa Blue Resort",
+    "HighSprice": 70,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "Happy Life Beach Resort",
+    "HighSprice": 70,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "Concorde Moreen Beach Resort",
+    "HighSprice": 70,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "Oyster Bay Resort",
+    "HighSprice": 70,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "Bliss Nada Beach Resort",
+    "HighSprice": 70,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "Shoni Bay Resort",
+    "HighSprice": 70,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "Casa Mare Resort",
+    "HighSprice": 70,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "Casa Blue Resort",
+    "HighSprice": 70,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "Happy Life Beach Resort",
+    "HighSprice": 70,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "Concorde Moreen Beach Resort",
+    "HighSprice": 70,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "Oyster Bay Resort",
+    "HighSprice": 70,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "Bliss Nada Beach Resort",
+    "HighSprice": 70,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "Shoni Bay Resort",
+    "HighSprice": 70,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "Casa Mare Resort",
+    "HighSprice": 70,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "Casa Blue Resort",
+    "HighSprice": 70,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "All Port Ghalib Hotels",
+    "HighSprice": 65,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "Jaz Hotels (Solaya, Lamaya, Dar El Madina, Grand Marsa)",
+    "HighSprice": 65,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "Steigenberger Coraya Beach",
+    "HighSprice": 65,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "Iberotel Costa Mares",
+    "HighSprice": 65,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "All Port Ghalib Hotels",
+    "HighSprice": 65,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "Jaz Hotels (Solaya, Lamaya, Dar El Madina, Grand Marsa)",
+    "HighSprice": 65,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "Steigenberger Coraya Beach",
+    "HighSprice": 65,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "Iberotel Costa Mares",
+    "HighSprice": 65,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "All Port Ghalib Hotels",
+    "HighSprice": 65,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "Jaz Hotels (Solaya, Lamaya, Dar El Madina, Grand Marsa)",
+    "HighSprice": 65,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "Steigenberger Coraya Beach",
+    "HighSprice": 65,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "Iberotel Costa Mares",
+    "HighSprice": 65,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "Marsa Alam International Airport",
+    "HighSprice": 65,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "Marsa Alam International Airport",
+    "HighSprice": 65,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "Marsa Alam International Airport",
+    "HighSprice": 65,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "Coral Hills Resort",
+    "HighSprice": 80,
+    "sedanPrice": 60,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "Coral Hills Resort",
+    "HighSprice": 80,
+    "sedanPrice": 60,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "Coral Hills Resort",
+    "HighSprice": 80,
+    "sedanPrice": 60,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "Akassia Swiss Resort",
+    "HighSprice": 85,
+    "sedanPrice": 75,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "Utopia Beach Club",
+    "HighSprice": 85,
+    "sedanPrice": 75,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "Sea World Resort",
+    "HighSprice": 85,
+    "sedanPrice": 75,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "Lazuli Hotel",
+    "HighSprice": 85,
+    "sedanPrice": 75,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "Akassia Swiss Resort",
+    "HighSprice": 85,
+    "sedanPrice": 75,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "Utopia Beach Club",
+    "HighSprice": 85,
+    "sedanPrice": 75,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "Sea World Resort",
+    "HighSprice": 85,
+    "sedanPrice": 75,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "Lazuli Hotel",
+    "HighSprice": 85,
+    "sedanPrice": 75,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "Akassia Swiss Resort",
+    "HighSprice": 85,
+    "sedanPrice": 75,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "Utopia Beach Club",
+    "HighSprice": 85,
+    "sedanPrice": 75,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "Sea World Resort",
+    "HighSprice": 85,
+    "sedanPrice": 75,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "Lazuli Hotel",
+    "HighSprice": 85,
+    "sedanPrice": 75,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "Movenpick Resort El Quseir",
+    "HighSprice": 85,
+    "sedanPrice": 75,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "Radisson Blu El Quseir",
+    "HighSprice": 85,
+    "sedanPrice": 75,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "Flamenco Resort",
+    "HighSprice": 85,
+    "sedanPrice": 75,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "Movenpick Resort El Quseir",
+    "HighSprice": 85,
+    "sedanPrice": 75,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "Radisson Blu El Quseir",
+    "HighSprice": 85,
+    "sedanPrice": 75,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "Flamenco Resort",
+    "HighSprice": 85,
+    "sedanPrice": 75,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "Movenpick Resort El Quseir",
+    "HighSprice": 85,
+    "sedanPrice": 75,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "Radisson Blu El Quseir",
+    "HighSprice": 85,
+    "sedanPrice": 75,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "Flamenco Resort",
+    "HighSprice": 85,
+    "sedanPrice": 75,
+    "isHotel": true
+  },
+  {
+    "from": "Lahami Bay Beach Resort",
+    "to": "Safaga Hotels",
+    "HighSprice": 100,
+    "sedanPrice": 85,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Lahmy Azur Resort",
+    "to": "Safaga Hotels",
+    "HighSprice": 100,
+    "sedanPrice": 85,
+    "isHotel": true
+  },
+  {
+    "from": "Kite Village Hamata",
+    "to": "Safaga Hotels",
+    "HighSprice": 100,
+    "sedanPrice": 85,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Lahami Bay Beach Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Wadi Lahmy Azur Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Kite Village Hamata",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Serena Beach Resort Marsa Alam",
+    "to": "Lahami Bay Beach Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Serena Beach Resort Marsa Alam",
+    "to": "Wadi Lahmy Azur Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Serena Beach Resort Marsa Alam",
+    "to": "Kite Village Hamata",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Sunrise Anjum Resort",
+    "to": "Lahami Bay Beach Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Sunrise Anjum Resort",
+    "to": "Wadi Lahmy Azur Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Sunrise Anjum Resort",
+    "to": "Kite Village Hamata",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Reef Oasis Suakin Resort",
+    "to": "Lahami Bay Beach Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Reef Oasis Suakin Resort",
+    "to": "Wadi Lahmy Azur Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Reef Oasis Suakin Resort",
+    "to": "Kite Village Hamata",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Gemma Resort",
+    "to": "Lahami Bay Beach Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Gemma Resort",
+    "to": "Wadi Lahmy Azur Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Gemma Resort",
+    "to": "Kite Village Hamata",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Dream Lagoon Resort",
+    "to": "Lahami Bay Beach Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Dream Lagoon Resort",
+    "to": "Wadi Lahmy Azur Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Dream Lagoon Resort",
+    "to": "Kite Village Hamata",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "True Beach Resort",
+    "to": "Lahami Bay Beach Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "True Beach Resort",
+    "to": "Wadi Lahmy Azur Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "True Beach Resort",
+    "to": "Kite Village Hamata",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Marsa Nakari Village",
+    "to": "Lahami Bay Beach Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Marsa Nakari Village",
+    "to": "Wadi Lahmy Azur Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Marsa Nakari Village",
+    "to": "Kite Village Hamata",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Shams Alam Beach Resort",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Gorgonia Beach Resort",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Serena Beach Resort Marsa Alam",
+    "to": "Shams Alam Beach Resort",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Serena Beach Resort Marsa Alam",
+    "to": "Gorgonia Beach Resort",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Sunrise Anjum Resort",
+    "to": "Shams Alam Beach Resort",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Sunrise Anjum Resort",
+    "to": "Gorgonia Beach Resort",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Reef Oasis Suakin Resort",
+    "to": "Shams Alam Beach Resort",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Reef Oasis Suakin Resort",
+    "to": "Gorgonia Beach Resort",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Gemma Resort",
+    "to": "Shams Alam Beach Resort",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Gemma Resort",
+    "to": "Gorgonia Beach Resort",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Dream Lagoon Resort",
+    "to": "Shams Alam Beach Resort",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Dream Lagoon Resort",
+    "to": "Gorgonia Beach Resort",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "True Beach Resort",
+    "to": "Shams Alam Beach Resort",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "True Beach Resort",
+    "to": "Gorgonia Beach Resort",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Marsa Nakari Village",
+    "to": "Shams Alam Beach Resort",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Marsa Nakari Village",
+    "to": "Gorgonia Beach Resort",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Serena Beach Resort Marsa Alam",
+    "HighSprice": 20,
+    "sedanPrice": 15,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Sunrise Anjum Resort",
+    "HighSprice": 20,
+    "sedanPrice": 15,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Reef Oasis Suakin Resort",
+    "HighSprice": 20,
+    "sedanPrice": 15,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Gemma Resort",
+    "HighSprice": 20,
+    "sedanPrice": 15,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Dream Lagoon Resort",
+    "HighSprice": 20,
+    "sedanPrice": 15,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "True Beach Resort",
+    "HighSprice": 20,
+    "sedanPrice": 15,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Marsa Nakari Village",
+    "HighSprice": 20,
+    "sedanPrice": 15,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Tondoba Area",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Aurora Bay Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Beach Safari Nubian Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Serena Beach Resort Marsa Alam",
+    "to": "Tondoba Area",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Serena Beach Resort Marsa Alam",
+    "to": "Aurora Bay Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Serena Beach Resort Marsa Alam",
+    "to": "Beach Safari Nubian Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Sunrise Anjum Resort",
+    "to": "Tondoba Area",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Sunrise Anjum Resort",
+    "to": "Aurora Bay Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Sunrise Anjum Resort",
+    "to": "Beach Safari Nubian Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Reef Oasis Suakin Resort",
+    "to": "Tondoba Area",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Reef Oasis Suakin Resort",
+    "to": "Aurora Bay Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Reef Oasis Suakin Resort",
+    "to": "Beach Safari Nubian Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Gemma Resort",
+    "to": "Tondoba Area",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Gemma Resort",
+    "to": "Aurora Bay Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Gemma Resort",
+    "to": "Beach Safari Nubian Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Dream Lagoon Resort",
+    "to": "Tondoba Area",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Dream Lagoon Resort",
+    "to": "Aurora Bay Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Dream Lagoon Resort",
+    "to": "Beach Safari Nubian Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "True Beach Resort",
+    "to": "Tondoba Area",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "True Beach Resort",
+    "to": "Aurora Bay Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "True Beach Resort",
+    "to": "Beach Safari Nubian Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Marsa Nakari Village",
+    "to": "Tondoba Area",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Marsa Nakari Village",
+    "to": "Aurora Bay Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Marsa Nakari Village",
+    "to": "Beach Safari Nubian Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Brayka Bay Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Brayka Lagoon Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Amarina Queen Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Royal Brayka Beach Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Blue Reef Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Crystal Beach Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Alexander The Great Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Serena Beach Resort Marsa Alam",
+    "to": "Brayka Bay Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Serena Beach Resort Marsa Alam",
+    "to": "Brayka Lagoon Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Serena Beach Resort Marsa Alam",
+    "to": "Amarina Queen Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Serena Beach Resort Marsa Alam",
+    "to": "Royal Brayka Beach Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Serena Beach Resort Marsa Alam",
+    "to": "Blue Reef Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Serena Beach Resort Marsa Alam",
+    "to": "Crystal Beach Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Serena Beach Resort Marsa Alam",
+    "to": "Alexander The Great Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Marsa Shagra Village",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Porto Fino Marsa Alam",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Vita Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "The Oasis Hotel",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Wadi Sabarah Lodge",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Blend Elphistone Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Serena Beach Resort Marsa Alam",
+    "to": "Marsa Shagra Village",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Serena Beach Resort Marsa Alam",
+    "to": "Porto Fino Marsa Alam",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Serena Beach Resort Marsa Alam",
+    "to": "Vita Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Sunrise Anjum Resort",
+    "to": "Marsa Shagra Village",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Sunrise Anjum Resort",
+    "to": "Porto Fino Marsa Alam",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Sunrise Anjum Resort",
+    "to": "Vita Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Reef Oasis Suakin Resort",
+    "to": "The Oasis Hotel",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Gemma Resort",
+    "to": "Wadi Sabarah Lodge",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Dream Lagoon Resort",
+    "to": "Blend Elphistone Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Sataya Resort",
+    "HighSprice": 45,
+    "sedanPrice": 35,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Iconic Resort Marsa Alam",
+    "HighSprice": 45,
+    "sedanPrice": 35,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Malikia Resort Abu Dabbab",
+    "HighSprice": 45,
+    "sedanPrice": 35,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Abu Dabbab Lodge",
+    "HighSprice": 45,
+    "sedanPrice": 35,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Hilton Marsa Alam Nubian Resort",
+    "HighSprice": 45,
+    "sedanPrice": 35,
+    "isHotel": true
+  },
+  {
+    "from": "Serena Beach Resort Marsa Alam",
+    "to": "Sataya Resort",
+    "HighSprice": 45,
+    "sedanPrice": 35,
+    "isHotel": true
+  },
+  {
+    "from": "Sunrise Anjum Resort",
+    "to": "Iconic Resort Marsa Alam",
+    "HighSprice": 45,
+    "sedanPrice": 35,
+    "isHotel": true
+  },
+  {
+    "from": "Reef Oasis Suakin Resort",
+    "to": "Malikia Resort Abu Dabbab",
+    "HighSprice": 45,
+    "sedanPrice": 35,
+    "isHotel": true
+  },
+  {
+    "from": "Gemma Resort",
+    "to": "Abu Dabbab Lodge",
+    "HighSprice": 45,
+    "sedanPrice": 35,
+    "isHotel": true
+  },
+  {
+    "from": "Dream Lagoon Resort",
+    "to": "Hilton Marsa Alam Nubian Resort",
+    "HighSprice": 45,
+    "sedanPrice": 35,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Happy Life Beach Resort",
+    "HighSprice": 45,
+    "sedanPrice": 35,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Concorde Moreen Beach Resort",
+    "HighSprice": 45,
+    "sedanPrice": 35,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Oyster Bay Resort",
+    "HighSprice": 45,
+    "sedanPrice": 35,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Bliss Nada Beach Resort",
+    "HighSprice": 45,
+    "sedanPrice": 35,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Shoni Bay Resort",
+    "HighSprice": 45,
+    "sedanPrice": 35,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Casa Mare Resort",
+    "HighSprice": 45,
+    "sedanPrice": 35,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Casa Blue Resort",
+    "HighSprice": 45,
+    "sedanPrice": 35,
+    "isHotel": true
+  },
+  {
+    "from": "Serena Beach Resort Marsa Alam",
+    "to": "Happy Life Beach Resort",
+    "HighSprice": 45,
+    "sedanPrice": 35,
+    "isHotel": true
+  },
+  {
+    "from": "Serena Beach Resort Marsa Alam",
+    "to": "Concorde Moreen Beach Resort",
+    "HighSprice": 45,
+    "sedanPrice": 35,
+    "isHotel": true
+  },
+  {
+    "from": "Sunrise Anjum Resort",
+    "to": "Oyster Bay Resort",
+    "HighSprice": 45,
+    "sedanPrice": 35,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "All Port Ghalib Hotels",
+    "HighSprice": 45,
+    "sedanPrice": 35,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Jaz Hotels (Solaya, Lamaya, Dar El Madina, Grand Marsa)",
+    "HighSprice": 45,
+    "sedanPrice": 35,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Steigenberger Coraya Beach",
+    "HighSprice": 45,
+    "sedanPrice": 35,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Iberotel Costa Mares",
+    "HighSprice": 45,
+    "sedanPrice": 35,
+    "isHotel": true
+  },
+  {
+    "from": "Serena Beach Resort Marsa Alam",
+    "to": "All Port Ghalib Hotels",
+    "HighSprice": 45,
+    "sedanPrice": 35,
+    "isHotel": true
+  },
+  {
+    "from": "Sunrise Anjum Resort",
+    "to": "Jaz Hotels (Solaya, Lamaya, Dar El Madina, Grand Marsa)",
+    "HighSprice": 45,
+    "sedanPrice": 35,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Marsa Alam International Airport",
+    "HighSprice": 45,
+    "sedanPrice": 35,
+    "isHotel": true
+  },
+  {
+    "from": "Serena Beach Resort Marsa Alam",
+    "to": "Marsa Alam International Airport",
+    "HighSprice": 45,
+    "sedanPrice": 35,
+    "isHotel": true
+  },
+  {
+    "from": "Sunrise Anjum Resort",
+    "to": "Marsa Alam International Airport",
+    "HighSprice": 45,
+    "sedanPrice": 35,
+    "isHotel": true
+  },
+  {
+    "from": "Reef Oasis Suakin Resort",
+    "to": "Marsa Alam International Airport",
+    "HighSprice": 45,
+    "sedanPrice": 35,
+    "isHotel": true
+  },
+  {
+    "from": "Gemma Resort",
+    "to": "Marsa Alam International Airport",
+    "HighSprice": 45,
+    "sedanPrice": 35,
+    "isHotel": true
+  },
+  {
+    "from": "Dream Lagoon Resort",
+    "to": "Marsa Alam International Airport",
+    "HighSprice": 45,
+    "sedanPrice": 35,
+    "isHotel": true
+  },
+  {
+    "from": "True Beach Resort",
+    "to": "Marsa Alam International Airport",
+    "HighSprice": 45,
+    "sedanPrice": 35,
+    "isHotel": true
+  },
+  {
+    "from": "Marsa Nakari Village",
+    "to": "Marsa Alam International Airport",
+    "HighSprice": 45,
+    "sedanPrice": 35,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Coral Hills Resort",
+    "HighSprice": 60,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Serena Beach Resort Marsa Alam",
+    "to": "Coral Hills Resort",
+    "HighSprice": 60,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Sunrise Anjum Resort",
+    "to": "Coral Hills Resort",
+    "HighSprice": 60,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Reef Oasis Suakin Resort",
+    "to": "Coral Hills Resort",
+    "HighSprice": 60,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Gemma Resort",
+    "to": "Coral Hills Resort",
+    "HighSprice": 60,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Dream Lagoon Resort",
+    "to": "Coral Hills Resort",
+    "HighSprice": 60,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "True Beach Resort",
+    "to": "Coral Hills Resort",
+    "HighSprice": 60,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Marsa Nakari Village",
+    "to": "Coral Hills Resort",
+    "HighSprice": 60,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Akassia Swiss Resort",
+    "HighSprice": 65,
+    "sedanPrice": 55,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Utopia Beach Club",
+    "HighSprice": 65,
+    "sedanPrice": 55,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Sea World Resort",
+    "HighSprice": 65,
+    "sedanPrice": 55,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Lazuli Hotel",
+    "HighSprice": 65,
+    "sedanPrice": 55,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Movenpick Resort El Quseir",
+    "HighSprice": 65,
+    "sedanPrice": 55,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Radisson Blu El Quseir",
+    "HighSprice": 65,
+    "sedanPrice": 55,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Flamenco Resort",
+    "HighSprice": 65,
+    "sedanPrice": 55,
+    "isHotel": true
+  },
+  {
+    "from": "Serena Beach Resort Marsa Alam",
+    "to": "Akassia Swiss Resort",
+    "HighSprice": 65,
+    "sedanPrice": 55,
+    "isHotel": true
+  },
+  {
+    "from": "Sunrise Anjum Resort",
+    "to": "Movenpick Resort El Quseir",
+    "HighSprice": 65,
+    "sedanPrice": 55,
+    "isHotel": true
+  },
+  {
+    "from": "Reef Oasis Suakin Resort",
+    "to": "Flamenco Resort",
+    "HighSprice": 65,
+    "sedanPrice": 55,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Safaga Hotels",
+    "HighSprice": 80,
+    "sedanPrice": 70,
+    "isHotel": true
+  },
+  {
+    "from": "Serena Beach Resort Marsa Alam",
+    "to": "Safaga Hotels",
+    "HighSprice": 80,
+    "sedanPrice": 70,
+    "isHotel": true
+  },
+  {
+    "from": "Sunrise Anjum Resort",
+    "to": "Safaga Hotels",
+    "HighSprice": 80,
+    "sedanPrice": 70,
+    "isHotel": true
+  },
+  {
+    "from": "Reef Oasis Suakin Resort",
+    "to": "Safaga Hotels",
+    "HighSprice": 80,
+    "sedanPrice": 70,
+    "isHotel": true
+  },
+  {
+    "from": "Gemma Resort",
+    "to": "Safaga Hotels",
+    "HighSprice": 80,
+    "sedanPrice": 70,
+    "isHotel": true
+  },
+  {
+    "from": "Dream Lagoon Resort",
+    "to": "Safaga Hotels",
+    "HighSprice": 80,
+    "sedanPrice": 70,
+    "isHotel": true
+  },
+  {
+    "from": "True Beach Resort",
+    "to": "Safaga Hotels",
+    "HighSprice": 80,
+    "sedanPrice": 70,
+    "isHotel": true
+  },
+  {
+    "from": "Marsa Nakari Village",
+    "to": "Safaga Hotels",
+    "HighSprice": 80,
+    "sedanPrice": 70,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Hurghada Hotels",
+    "HighSprice": 95,
+    "sedanPrice": 85,
+    "isHotel": true
+  },
+  {
+    "from": "Fantazia Resort Marsa Alam",
+    "to": "Hurghada International Airport",
+    "HighSprice": 95,
+    "sedanPrice": 85,
+    "isHotel": true
+  },
+  {
+    "from": "Serena Beach Resort Marsa Alam",
+    "to": "Hurghada Hotels",
+    "HighSprice": 95,
+    "sedanPrice": 85,
+    "isHotel": true
+  },
+  {
+    "from": "Serena Beach Resort Marsa Alam",
+    "to": "Hurghada International Airport",
+    "HighSprice": 95,
+    "sedanPrice": 85,
+    "isHotel": true
+  },
+  {
+    "from": "Sunrise Anjum Resort",
+    "to": "Hurghada Hotels",
+    "HighSprice": 95,
+    "sedanPrice": 85,
+    "isHotel": true
+  },
+  {
+    "from": "Sunrise Anjum Resort",
+    "to": "Hurghada International Airport",
+    "HighSprice": 95,
+    "sedanPrice": 85,
+    "isHotel": true
+  },
+  {
+    "from": "Reef Oasis Suakin Resort",
+    "to": "Hurghada Hotels",
+    "HighSprice": 95,
+    "sedanPrice": 85,
+    "isHotel": true
+  },
+  {
+    "from": "Reef Oasis Suakin Resort",
+    "to": "Hurghada International Airport",
+    "HighSprice": 95,
+    "sedanPrice": 85,
+    "isHotel": true
+  },
+  {
+    "from": "Gemma Resort",
+    "to": "Hurghada Hotels",
+    "HighSprice": 95,
+    "sedanPrice": 85,
+    "isHotel": true
+  },
+  {
+    "from": "Dream Lagoon Resort",
+    "to": "Hurghada Hotels",
+    "HighSprice": 95,
+    "sedanPrice": 85,
+    "isHotel": true
+  },
+  {
+    "from": "True Beach Resort",
+    "to": "Hurghada Hotels",
+    "HighSprice": 95,
+    "sedanPrice": 85,
+    "isHotel": true
+  },
+  {
+    "from": "Marsa Nakari Village",
+    "to": "Hurghada Hotels",
+    "HighSprice": 95,
+    "sedanPrice": 85,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Lahami Bay Beach Resort",
+    "HighSprice": 65,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Wadi Lahmy Azur Resort",
+    "HighSprice": 65,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Kite Village Hamata",
+    "HighSprice": 65,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Shams Alam Beach Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Gorgonia Beach Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Fantazia Resort Marsa Alam",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Serena Beach Resort Marsa Alam",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Sunrise Anjum Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Reef Oasis Suakin Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Gemma Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Dream Lagoon Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "True Beach Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Marsa Nakari Village",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Tondoba Area",
+    "HighSprice": 15,
+    "sedanPrice": 10,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Aurora Bay Resort",
+    "HighSprice": 20,
+    "sedanPrice": 15,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Beach Safari Nubian Resort",
+    "HighSprice": 20,
+    "sedanPrice": 15,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Brayka Bay Resort",
+    "HighSprice": 30,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Brayka Lagoon Resort",
+    "HighSprice": 30,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Amarina Queen Resort",
+    "HighSprice": 30,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Royal Brayka Beach Resort",
+    "HighSprice": 30,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Blue Reef Resort",
+    "HighSprice": 30,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Crystal Beach Resort",
+    "HighSprice": 30,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Alexander The Great Resort",
+    "HighSprice": 30,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Marsa Shagra Village",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Porto Fino Marsa Alam",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Vita Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "The Oasis Hotel",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Wadi Sabarah Lodge",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Blend Elphistone Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Sataya Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Iconic Resort Marsa Alam",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Malikia Resort Abu Dabbab",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Abu Dabbab Lodge",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Hilton Marsa Alam Nubian Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Happy Life Beach Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Concorde Moreen Beach Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Oyster Bay Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Bliss Nada Beach Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Shoni Bay Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Casa Mare Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Casa Blue Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "All Port Ghalib Hotels",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Jaz Hotels (Solaya, Lamaya, Dar El Madina, Grand Marsa)",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Steigenberger Coraya Beach",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Iberotel Costa Mares",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Marsa Alam International Airport",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Coral Hills Resort",
+    "HighSprice": 55,
+    "sedanPrice": 40,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Akassia Swiss Resort",
+    "HighSprice": 60,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Utopia Beach Club",
+    "HighSprice": 60,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Sea World Resort",
+    "HighSprice": 60,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Lazuli Hotel",
+    "HighSprice": 60,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Movenpick Resort El Quseir",
+    "HighSprice": 60,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Radisson Blu El Quseir",
+    "HighSprice": 60,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Flamenco Resort",
+    "HighSprice": 60,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Safaga Hotels",
+    "HighSprice": 75,
+    "sedanPrice": 65,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Hurghada Hotels",
+    "HighSprice": 90,
+    "sedanPrice": 80,
+    "isHotel": true
+  },
+  {
+    "from": "Tondoba Area",
+    "to": "Hurghada International Airport",
+    "HighSprice": 90,
+    "sedanPrice": 80,
+    "isHotel": true
+  },
+  {
+    "from": "Aurora Bay Resort",
+    "to": "Fantazia Resort Marsa Alam",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Aurora Bay Resort",
+    "to": "Serena Beach Resort Marsa Alam",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Aurora Bay Resort",
+    "to": "Sunrise Anjum Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Aurora Bay Resort",
+    "to": "Reef Oasis Suakin Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Aurora Bay Resort",
+    "to": "Gemma Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Aurora Bay Resort",
+    "to": "Dream Lagoon Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Aurora Bay Resort",
+    "to": "True Beach Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Aurora Bay Resort",
+    "to": "Marsa Nakari Village",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Beach Safari Nubian Resort",
+    "to": "Fantazia Resort Marsa Alam",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Beach Safari Nubian Resort",
+    "to": "Serena Beach Resort Marsa Alam",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Beach Safari Nubian Resort",
+    "to": "Sunrise Anjum Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Beach Safari Nubian Resort",
+    "to": "Reef Oasis Suakin Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Beach Safari Nubian Resort",
+    "to": "Gemma Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Beach Safari Nubian Resort",
+    "to": "Dream Lagoon Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Beach Safari Nubian Resort",
+    "to": "True Beach Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Beach Safari Nubian Resort",
+    "to": "Marsa Nakari Village",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Aurora Bay Resort",
+    "to": "Lahami Bay Beach Resort",
+    "HighSprice": 65,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Aurora Bay Resort",
+    "to": "Wadi Lahmy Azur Resort",
+    "HighSprice": 65,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Aurora Bay Resort",
+    "to": "Kite Village Hamata",
+    "HighSprice": 65,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Beach Safari Nubian Resort",
+    "to": "Lahami Bay Beach Resort",
+    "HighSprice": 65,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Beach Safari Nubian Resort",
+    "to": "Wadi Lahmy Azur Resort",
+    "HighSprice": 65,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Beach Safari Nubian Resort",
+    "to": "Kite Village Hamata",
+    "HighSprice": 65,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Aurora Bay Resort",
+    "to": "Shams Alam Beach Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Aurora Bay Resort",
+    "to": "Gorgonia Beach Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Beach Safari Nubian Resort",
+    "to": "Shams Alam Beach Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Beach Safari Nubian Resort",
+    "to": "Gorgonia Beach Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Aurora Bay Resort",
+    "to": "Tondoba Area",
+    "HighSprice": 20,
+    "sedanPrice": 15,
+    "isHotel": true
+  },
+  {
+    "from": "Beach Safari Nubian Resort",
+    "to": "Tondoba Area",
+    "HighSprice": 20,
+    "sedanPrice": 15,
+    "isHotel": true
+  },
+  {
+    "from": "Aurora Bay Resort",
+    "to": "Beach Safari Nubian Resort",
+    "HighSprice": 15,
+    "sedanPrice": 10,
+    "isHotel": true
+  },
+  {
+    "from": "Beach Safari Nubian Resort",
+    "to": "Aurora Bay Resort",
+    "HighSprice": 15,
+    "sedanPrice": 10,
+    "isHotel": true
+  },
+  {
+    "from": "Aurora Bay Resort",
+    "to": "Brayka Bay Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Aurora Bay Resort",
+    "to": "Brayka Lagoon Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Aurora Bay Resort",
+    "to": "Amarina Queen Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Aurora Bay Resort",
+    "to": "Royal Brayka Beach Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Aurora Bay Resort",
+    "to": "Blue Reef Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Aurora Bay Resort",
+    "to": "Crystal Beach Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Aurora Bay Resort",
+    "to": "Alexander The Great Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Beach Safari Nubian Resort",
+    "to": "Brayka Bay Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Beach Safari Nubian Resort",
+    "to": "Brayka Lagoon Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Beach Safari Nubian Resort",
+    "to": "Amarina Queen Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Beach Safari Nubian Resort",
+    "to": "Royal Brayka Beach Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Beach Safari Nubian Resort",
+    "to": "Blue Reef Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Beach Safari Nubian Resort",
+    "to": "Crystal Beach Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Beach Safari Nubian Resort",
+    "to": "Alexander The Great Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Aurora Bay Resort",
+    "to": "Marsa Shagra Village",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Aurora Bay Resort",
+    "to": "Porto Fino Marsa Alam",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Aurora Bay Resort",
+    "to": "Vita Resort",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Aurora Bay Resort",
+    "to": "The Oasis Hotel",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Aurora Bay Resort",
+    "to": "Wadi Sabarah Lodge",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Aurora Bay Resort",
+    "to": "Blend Elphistone Resort",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Beach Safari Nubian Resort",
+    "to": "Marsa Shagra Village",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Beach Safari Nubian Resort",
+    "to": "Porto Fino Marsa Alam",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Beach Safari Nubian Resort",
+    "to": "The Oasis Hotel",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Beach Safari Nubian Resort",
+    "to": "Wadi Sabarah Lodge",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Aurora Bay Resort",
+    "to": "Sataya Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Aurora Bay Resort",
+    "to": "Malikia Resort Abu Dabbab",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Aurora Bay Resort",
+    "to": "Hilton Marsa Alam Nubian Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Aurora Bay Resort",
+    "to": "Happy Life Beach Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Aurora Bay Resort",
+    "to": "Concorde Moreen Beach Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Beach Safari Nubian Resort",
+    "to": "Sataya Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Beach Safari Nubian Resort",
+    "to": "Malikia Resort Abu Dabbab",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Beach Safari Nubian Resort",
+    "to": "Happy Life Beach Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Aurora Bay Resort",
+    "to": "All Port Ghalib Hotels",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Aurora Bay Resort",
+    "to": "Jaz Hotels (Solaya, Lamaya, Dar El Madina, Grand Marsa)",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Aurora Bay Resort",
+    "to": "Steigenberger Coraya Beach",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Aurora Bay Resort",
+    "to": "Iberotel Costa Mares",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Aurora Bay Resort",
+    "to": "Marsa Alam International Airport",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Aurora Bay Resort",
+    "to": "Coral Hills Resort",
+    "HighSprice": 50,
+    "sedanPrice": 35,
+    "isHotel": true
+  },
+  {
+    "from": "Beach Safari Nubian Resort",
+    "to": "All Port Ghalib Hotels",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Beach Safari Nubian Resort",
+    "to": "Jaz Hotels (Solaya, Lamaya, Dar El Madina, Grand Marsa)",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Beach Safari Nubian Resort",
+    "to": "Steigenberger Coraya Beach",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Beach Safari Nubian Resort",
+    "to": "Iberotel Costa Mares",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Beach Safari Nubian Resort",
+    "to": "Marsa Alam International Airport",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Beach Safari Nubian Resort",
+    "to": "Coral Hills Resort",
+    "HighSprice": 50,
+    "sedanPrice": 35,
+    "isHotel": true
+  },
+  {
+    "from": "Aurora Bay Resort",
+    "to": "Akassia Swiss Resort",
+    "HighSprice": 55,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Aurora Bay Resort",
+    "to": "Utopia Beach Club",
+    "HighSprice": 55,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Aurora Bay Resort",
+    "to": "Sea World Resort",
+    "HighSprice": 55,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Aurora Bay Resort",
+    "to": "Lazuli Hotel",
+    "HighSprice": 55,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Aurora Bay Resort",
+    "to": "Movenpick Resort El Quseir",
+    "HighSprice": 55,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Aurora Bay Resort",
+    "to": "Radisson Blu El Quseir",
+    "HighSprice": 55,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Aurora Bay Resort",
+    "to": "Flamenco Resort",
+    "HighSprice": 55,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Beach Safari Nubian Resort",
+    "to": "Akassia Swiss Resort",
+    "HighSprice": 55,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Beach Safari Nubian Resort",
+    "to": "Utopia Beach Club",
+    "HighSprice": 55,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Beach Safari Nubian Resort",
+    "to": "Movenpick Resort El Quseir",
+    "HighSprice": 55,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Aurora Bay Resort",
+    "to": "Safaga Hotels",
+    "HighSprice": 70,
+    "sedanPrice": 60,
+    "isHotel": true
+  },
+  {
+    "from": "Aurora Bay Resort",
+    "to": "Hurghada Hotels",
+    "HighSprice": 85,
+    "sedanPrice": 75,
+    "isHotel": true
+  },
+  {
+    "from": "Aurora Bay Resort",
+    "to": "Hurghada International Airport",
+    "HighSprice": 85,
+    "sedanPrice": 75,
+    "isHotel": true
+  },
+  {
+    "from": "Beach Safari Nubian Resort",
+    "to": "Safaga Hotels",
+    "HighSprice": 70,
+    "sedanPrice": 60,
+    "isHotel": true
+  },
+  {
+    "from": "Beach Safari Nubian Resort",
+    "to": "Hurghada Hotels",
+    "HighSprice": 85,
+    "sedanPrice": 75,
+    "isHotel": true
+  },
+  {
+    "from": "Beach Safari Nubian Resort",
+    "to": "Hurghada International Airport",
+    "HighSprice": 85,
+    "sedanPrice": 75,
+    "isHotel": true
+  },
+  {
+    "from": "Brayka Bay Resort",
+    "to": "Lahami Bay Beach Resort",
+    "HighSprice": 65,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Brayka Bay Resort",
+    "to": "Wadi Lahmy Azur Resort",
+    "HighSprice": 65,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Brayka Bay Resort",
+    "to": "Kite Village Hamata",
+    "HighSprice": 65,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Brayka Lagoon Resort",
+    "to": "Lahami Bay Beach Resort",
+    "HighSprice": 65,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Amarina Queen Resort",
+    "to": "Lahami Bay Beach Resort",
+    "HighSprice": 65,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Royal Brayka Beach Resort",
+    "to": "Lahami Bay Beach Resort",
+    "HighSprice": 65,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Blue Reef Resort",
+    "to": "Lahami Bay Beach Resort",
+    "HighSprice": 65,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Crystal Beach Resort",
+    "to": "Lahami Bay Beach Resort",
+    "HighSprice": 65,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Alexander The Great Resort",
+    "to": "Lahami Bay Beach Resort",
+    "HighSprice": 65,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Brayka Bay Resort",
+    "to": "Tondoba Area",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Brayka Bay Resort",
+    "to": "Aurora Bay Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Brayka Bay Resort",
+    "to": "Beach Safari Nubian Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Brayka Lagoon Resort",
+    "to": "Tondoba Area",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Amarina Queen Resort",
+    "to": "Aurora Bay Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Royal Brayka Beach Resort",
+    "to": "Beach Safari Nubian Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Blue Reef Resort",
+    "to": "Tondoba Area",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Crystal Beach Resort",
+    "to": "Aurora Bay Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Alexander The Great Resort",
+    "to": "Beach Safari Nubian Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Brayka Bay Resort",
+    "to": "Marsa Shagra Village",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Brayka Bay Resort",
+    "to": "Porto Fino Marsa Alam",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Brayka Bay Resort",
+    "to": "Vita Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Brayka Bay Resort",
+    "to": "The Oasis Hotel",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Brayka Bay Resort",
+    "to": "Wadi Sabarah Lodge",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Brayka Bay Resort",
+    "to": "Blend Elphistone Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Brayka Lagoon Resort",
+    "to": "Marsa Shagra Village",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Amarina Queen Resort",
+    "to": "The Oasis Hotel",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Royal Brayka Beach Resort",
+    "to": "Wadi Sabarah Lodge",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Blue Reef Resort",
+    "to": "Blend Elphistone Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Crystal Beach Resort",
+    "to": "Marsa Shagra Village",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Alexander The Great Resort",
+    "to": "The Oasis Hotel",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Brayka Bay Resort",
+    "to": "Sataya Resort",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Brayka Bay Resort",
+    "to": "Iconic Resort Marsa Alam",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Brayka Bay Resort",
+    "to": "Malikia Resort Abu Dabbab",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Brayka Bay Resort",
+    "to": "Abu Dabbab Lodge",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Brayka Bay Resort",
+    "to": "Hilton Marsa Alam Nubian Resort",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Brayka Bay Resort",
+    "to": "Happy Life Beach Resort",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Brayka Lagoon Resort",
+    "to": "Malikia Resort Abu Dabbab",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Amarina Queen Resort",
+    "to": "Hilton Marsa Alam Nubian Resort",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Royal Brayka Beach Resort",
+    "to": "Sataya Resort",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Blue Reef Resort",
+    "to": "Abu Dabbab Lodge",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Crystal Beach Resort",
+    "to": "Iconic Resort Marsa Alam",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Alexander The Great Resort",
+    "to": "Happy Life Beach Resort",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Brayka Bay Resort",
+    "to": "Concorde Moreen Beach Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Brayka Bay Resort",
+    "to": "Oyster Bay Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Brayka Bay Resort",
+    "to": "Bliss Nada Beach Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Brayka Bay Resort",
+    "to": "Shoni Bay Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Brayka Bay Resort",
+    "to": "Casa Mare Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Brayka Bay Resort",
+    "to": "Casa Blue Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Brayka Lagoon Resort",
+    "to": "Concorde Moreen Beach Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Amarina Queen Resort",
+    "to": "Oyster Bay Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Brayka Bay Resort",
+    "to": "All Port Ghalib Hotels",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Brayka Bay Resort",
+    "to": "Jaz Hotels (Solaya, Lamaya, Dar El Madina, Grand Marsa)",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Brayka Bay Resort",
+    "to": "Steigenberger Coraya Beach",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Brayka Bay Resort",
+    "to": "Iberotel Costa Mares",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Brayka Bay Resort",
+    "to": "Marsa Alam International Airport",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Royal Brayka Beach Resort",
+    "to": "All Port Ghalib Hotels",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Blue Reef Resort",
+    "to": "Marsa Alam International Airport",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Brayka Bay Resort",
+    "to": "Coral Hills Resort",
+    "HighSprice": 50,
+    "sedanPrice": 35,
+    "isHotel": true
+  },
+  {
+    "from": "Brayka Lagoon Resort",
+    "to": "Coral Hills Resort",
+    "HighSprice": 50,
+    "sedanPrice": 35,
+    "isHotel": true
+  },
+  {
+    "from": "Amarina Queen Resort",
+    "to": "Coral Hills Resort",
+    "HighSprice": 50,
+    "sedanPrice": 35,
+    "isHotel": true
+  },
+  {
+    "from": "Royal Brayka Beach Resort",
+    "to": "Coral Hills Resort",
+    "HighSprice": 50,
+    "sedanPrice": 35,
+    "isHotel": true
+  },
+  {
+    "from": "Blue Reef Resort",
+    "to": "Coral Hills Resort",
+    "HighSprice": 50,
+    "sedanPrice": 35,
+    "isHotel": true
+  },
+  {
+    "from": "Crystal Beach Resort",
+    "to": "Coral Hills Resort",
+    "HighSprice": 50,
+    "sedanPrice": 35,
+    "isHotel": true
+  },
+  {
+    "from": "Alexander The Great Resort",
+    "to": "Coral Hills Resort",
+    "HighSprice": 50,
+    "sedanPrice": 35,
+    "isHotel": true
+  },
+  {
+    "from": "Brayka Bay Resort",
+    "to": "Akassia Swiss Resort",
+    "HighSprice": 55,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Brayka Bay Resort",
+    "to": "Utopia Beach Club",
+    "HighSprice": 55,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Brayka Bay Resort",
+    "to": "Sea World Resort",
+    "HighSprice": 55,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Brayka Bay Resort",
+    "to": "Lazuli Hotel",
+    "HighSprice": 55,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Brayka Bay Resort",
+    "to": "Movenpick Resort El Quseir",
+    "HighSprice": 55,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Brayka Bay Resort",
+    "to": "Radisson Blu El Quseir",
+    "HighSprice": 55,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Brayka Bay Resort",
+    "to": "Flamenco Resort",
+    "HighSprice": 55,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Brayka Bay Resort",
+    "to": "Safaga Hotels",
+    "HighSprice": 70,
+    "sedanPrice": 60,
+    "isHotel": true
+  },
+  {
+    "from": "Brayka Bay Resort",
+    "to": "Hurghada Hotels",
+    "HighSprice": 85,
+    "sedanPrice": 75,
+    "isHotel": true
+  },
+  {
+    "from": "Brayka Bay Resort",
+    "to": "Hurghada International Airport",
+    "HighSprice": 85,
+    "sedanPrice": 75,
+    "isHotel": true
+  },
+  {
+    "from": "Amarina Queen Resort",
+    "to": "Akassia Swiss Resort",
+    "HighSprice": 55,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Amarina Queen Resort",
+    "to": "Movenpick Resort El Quseir",
+    "HighSprice": 55,
+    "sedanPrice": 45,
+    "isHotel": true
+  },
+  {
+    "from": "Amarina Queen Resort",
+    "to": "Hurghada Hotels",
+    "HighSprice": 85,
+    "sedanPrice": 75,
+    "isHotel": true
+  },
+  {
+    "from": "Royal Brayka Beach Resort",
+    "to": "Safaga Hotels",
+    "HighSprice": 70,
+    "sedanPrice": 60,
+    "isHotel": true
+  },
+  {
+    "from": "Blue Reef Resort",
+    "to": "Hurghada International Airport",
+    "HighSprice": 85,
+    "sedanPrice": 75,
+    "isHotel": true
+  },
+  {
+    "from": "Marsa Shagra Village",
+    "to": "Tondoba Area",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Marsa Shagra Village",
+    "to": "Aurora Bay Resort",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Marsa Shagra Village",
+    "to": "Beach Safari Nubian Resort",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Porto Fino Marsa Alam",
+    "to": "Tondoba Area",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Porto Fino Marsa Alam",
+    "to": "Aurora Bay Resort",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Porto Fino Marsa Alam",
+    "to": "Beach Safari Nubian Resort",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Vita Resort",
+    "to": "Tondoba Area",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Vita Resort",
+    "to": "Aurora Bay Resort",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Vita Resort",
+    "to": "Beach Safari Nubian Resort",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Marsa Shagra Village",
+    "to": "Brayka Bay Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Marsa Shagra Village",
+    "to": "Brayka Lagoon Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Marsa Shagra Village",
+    "to": "Amarina Queen Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Marsa Shagra Village",
+    "to": "Royal Brayka Beach Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Porto Fino Marsa Alam",
+    "to": "Blue Reef Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Porto Fino Marsa Alam",
+    "to": "Crystal Beach Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Vita Resort",
+    "to": "Alexander The Great Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Marsa Shagra Village",
+    "to": "The Oasis Hotel",
+    "HighSprice": 15,
+    "sedanPrice": 10,
+    "isHotel": true
+  },
+  {
+    "from": "Marsa Shagra Village",
+    "to": "Wadi Sabarah Lodge",
+    "HighSprice": 15,
+    "sedanPrice": 10,
+    "isHotel": true
+  },
+  {
+    "from": "Marsa Shagra Village",
+    "to": "Blend Elphistone Resort",
+    "HighSprice": 15,
+    "sedanPrice": 10,
+    "isHotel": true
+  },
+  {
+    "from": "Porto Fino Marsa Alam",
+    "to": "The Oasis Hotel",
+    "HighSprice": 15,
+    "sedanPrice": 10,
+    "isHotel": true
+  },
+  {
+    "from": "Vita Resort",
+    "to": "Wadi Sabarah Lodge",
+    "HighSprice": 15,
+    "sedanPrice": 10,
+    "isHotel": true
+  },
+  {
+    "from": "Marsa Shagra Village",
+    "to": "Sataya Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Marsa Shagra Village",
+    "to": "Iconic Resort Marsa Alam",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Marsa Shagra Village",
+    "to": "Malikia Resort Abu Dabbab",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Marsa Shagra Village",
+    "to": "Abu Dabbab Lodge",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Marsa Shagra Village",
+    "to": "Hilton Marsa Alam Nubian Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Marsa Shagra Village",
+    "to": "Happy Life Beach Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Porto Fino Marsa Alam",
+    "to": "Sataya Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Porto Fino Marsa Alam",
+    "to": "Hilton Marsa Alam Nubian Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Vita Resort",
+    "to": "Malikia Resort Abu Dabbab",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Marsa Shagra Village",
+    "to": "Concorde Moreen Beach Resort",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Marsa Shagra Village",
+    "to": "Oyster Bay Resort",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Marsa Shagra Village",
+    "to": "Bliss Nada Beach Resort",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Marsa Shagra Village",
+    "to": "Shoni Bay Resort",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Marsa Shagra Village",
+    "to": "Casa Mare Resort",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Marsa Shagra Village",
+    "to": "Casa Blue Resort",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Porto Fino Marsa Alam",
+    "to": "Concorde Moreen Beach Resort",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Vita Resort",
+    "to": "Casa Mare Resort",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Marsa Shagra Village",
+    "to": "Marsa Alam International Airport",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Porto Fino Marsa Alam",
+    "to": "Marsa Alam International Airport",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Vita Resort",
+    "to": "Marsa Alam International Airport",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Marsa Shagra Village",
+    "to": "Hurghada Hotels",
+    "HighSprice": 80,
+    "sedanPrice": 70,
+    "isHotel": true
+  },
+  {
+    "from": "Marsa Shagra Village",
+    "to": "Hurghada International Airport",
+    "HighSprice": 80,
+    "sedanPrice": 70,
+    "isHotel": true
+  },
+  {
+    "from": "Porto Fino Marsa Alam",
+    "to": "Hurghada Hotels",
+    "HighSprice": 80,
+    "sedanPrice": 70,
+    "isHotel": true
+  },
+  {
+    "from": "Porto Fino Marsa Alam",
+    "to": "Hurghada International Airport",
+    "HighSprice": 80,
+    "sedanPrice": 70,
+    "isHotel": true
+  },
+  {
+    "from": "Vita Resort",
+    "to": "Hurghada Hotels",
+    "HighSprice": 80,
+    "sedanPrice": 70,
+    "isHotel": true
+  },
+  {
+    "from": "Vita Resort",
+    "to": "Hurghada International Airport",
+    "HighSprice": 80,
+    "sedanPrice": 70,
+    "isHotel": false
+  },
+  {
+    "from": "The Oasis Hotel",
+    "to": "Tondoba Area",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "The Oasis Hotel",
+    "to": "Aurora Bay Resort",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "The Oasis Hotel",
+    "to": "Beach Safari Nubian Resort",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Sabarah Lodge",
+    "to": "Tondoba Area",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Sabarah Lodge",
+    "to": "Aurora Bay Resort",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Sabarah Lodge",
+    "to": "Beach Safari Nubian Resort",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Blend Elphistone Resort",
+    "to": "Tondoba Area",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Blend Elphistone Resort",
+    "to": "Aurora Bay Resort",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Blend Elphistone Resort",
+    "to": "Beach Safari Nubian Resort",
+    "HighSprice": 30,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "The Oasis Hotel",
+    "to": "Brayka Bay Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "The Oasis Hotel",
+    "to": "Brayka Lagoon Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "The Oasis Hotel",
+    "to": "Amarina Queen Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "The Oasis Hotel",
+    "to": "Royal Brayka Beach Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "The Oasis Hotel",
+    "to": "Blue Reef Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "The Oasis Hotel",
+    "to": "Crystal Beach Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "The Oasis Hotel",
+    "to": "Alexander The Great Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Sabarah Lodge",
+    "to": "Brayka Bay Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Sabarah Lodge",
+    "to": "Brayka Lagoon Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Sabarah Lodge",
+    "to": "Amarina Queen Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Sabarah Lodge",
+    "to": "Royal Brayka Beach Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Sabarah Lodge",
+    "to": "Blue Reef Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Sabarah Lodge",
+    "to": "Crystal Beach Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Sabarah Lodge",
+    "to": "Alexander The Great Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Blend Elphistone Resort",
+    "to": "Brayka Bay Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Blend Elphistone Resort",
+    "to": "Brayka Lagoon Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Blend Elphistone Resort",
+    "to": "Amarina Queen Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Blend Elphistone Resort",
+    "to": "Royal Brayka Beach Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Blend Elphistone Resort",
+    "to": "Blue Reef Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Blend Elphistone Resort",
+    "to": "Crystal Beach Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Blend Elphistone Resort",
+    "to": "Alexander The Great Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "The Oasis Hotel",
+    "to": "Marsa Shagra Village",
+    "HighSprice": 15,
+    "sedanPrice": 10,
+    "isHotel": true
+  },
+  {
+    "from": "The Oasis Hotel",
+    "to": "Porto Fino Marsa Alam",
+    "HighSprice": 15,
+    "sedanPrice": 10,
+    "isHotel": true
+  },
+  {
+    "from": "The Oasis Hotel",
+    "to": "Vita Resort",
+    "HighSprice": 15,
+    "sedanPrice": 10,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Sabarah Lodge",
+    "to": "Marsa Shagra Village",
+    "HighSprice": 15,
+    "sedanPrice": 10,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Sabarah Lodge",
+    "to": "Porto Fino Marsa Alam",
+    "HighSprice": 15,
+    "sedanPrice": 10,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Sabarah Lodge",
+    "to": "Vita Resort",
+    "HighSprice": 15,
+    "sedanPrice": 10,
+    "isHotel": true
+  },
+  {
+    "from": "Blend Elphistone Resort",
+    "to": "Marsa Shagra Village",
+    "HighSprice": 15,
+    "sedanPrice": 10,
+    "isHotel": true
+  },
+  {
+    "from": "Blend Elphistone Resort",
+    "to": "Porto Fino Marsa Alam",
+    "HighSprice": 15,
+    "sedanPrice": 10,
+    "isHotel": true
+  },
+  {
+    "from": "Blend Elphistone Resort",
+    "to": "Vita Resort",
+    "HighSprice": 15,
+    "sedanPrice": 10,
+    "isHotel": true
+  },
+  {
+    "from": "The Oasis Hotel",
+    "to": "Concorde Moreen Beach Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "The Oasis Hotel",
+    "to": "Oyster Bay Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "The Oasis Hotel",
+    "to": "Bliss Nada Beach Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "The Oasis Hotel",
+    "to": "Shoni Bay Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "The Oasis Hotel",
+    "to": "Casa Mare Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "The Oasis Hotel",
+    "to": "Casa Blue Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "The Oasis Hotel",
+    "to": "Marsa Alam International Airport",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Sabarah Lodge",
+    "to": "Concorde Moreen Beach Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Sabarah Lodge",
+    "to": "Oyster Bay Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Sabarah Lodge",
+    "to": "Bliss Nada Beach Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Sabarah Lodge",
+    "to": "Shoni Bay Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Sabarah Lodge",
+    "to": "Casa Mare Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Sabarah Lodge",
+    "to": "Casa Blue Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Sabarah Lodge",
+    "to": "Marsa Alam International Airport",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Blend Elphistone Resort",
+    "to": "Concorde Moreen Beach Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Blend Elphistone Resort",
+    "to": "Oyster Bay Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Blend Elphistone Resort",
+    "to": "Bliss Nada Beach Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Blend Elphistone Resort",
+    "to": "Shoni Bay Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Blend Elphistone Resort",
+    "to": "Casa Mare Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Blend Elphistone Resort",
+    "to": "Casa Blue Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Blend Elphistone Resort",
+    "to": "Marsa Alam International Airport",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "The Oasis Hotel",
+    "to": "Hurghada Hotels",
+    "HighSprice": 80,
+    "sedanPrice": 70,
+    "isHotel": true
+  },
+  {
+    "from": "The Oasis Hotel",
+    "to": "Hurghada International Airport",
+    "HighSprice": 80,
+    "sedanPrice": 70,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Sabarah Lodge",
+    "to": "Hurghada Hotels",
+    "HighSprice": 80,
+    "sedanPrice": 70,
+    "isHotel": true
+  },
+  {
+    "from": "Wadi Sabarah Lodge",
+    "to": "Hurghada International Airport",
+    "HighSprice": 80,
+    "sedanPrice": 70,
+    "isHotel": true
+  },
+  {
+    "from": "Blend Elphistone Resort",
+    "to": "Hurghada Hotels",
+    "HighSprice": 80,
+    "sedanPrice": 70,
+    "isHotel": true
+  },
+  {
+    "from": "Blend Elphistone Resort",
+    "to": "Hurghada International Airport",
+    "HighSprice": 80,
+    "sedanPrice": 70,
+    "isHotel": true
+  },
+  {
+    "from": "Sataya Resort",
+    "to": "Lahami Bay Beach Resort",
+    "HighSprice": 70,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Sataya Resort",
+    "to": "Wadi Lahmy Azur Resort",
+    "HighSprice": 70,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Sataya Resort",
+    "to": "Kite Village Hamata",
+    "HighSprice": 70,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Sataya Resort",
+    "to": "Shams Alam Beach Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Sataya Resort",
+    "to": "Gorgonia Beach Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Iconic Resort Marsa Alam",
+    "to": "Lahami Bay Beach Resort",
+    "HighSprice": 70,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Malikia Resort Abu Dabbab",
+    "to": "Lahami Bay Beach Resort",
+    "HighSprice": 70,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Abu Dabbab Lodge",
+    "to": "Gorgonia Beach Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Hilton Marsa Alam Nubian Resort",
+    "to": "Lahami Bay Beach Resort",
+    "HighSprice": 70,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Sataya Resort",
+    "to": "Concorde Moreen Beach Resort",
+    "HighSprice": 20,
+    "sedanPrice": 15,
+    "isHotel": true
+  },
+  {
+    "from": "Sataya Resort",
+    "to": "All Port Ghalib Hotels",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Sataya Resort",
+    "to": "Marsa Alam International Airport",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Iconic Resort Marsa Alam",
+    "to": "Jaz Hotels (Solaya, Lamaya, Dar El Madina, Grand Marsa)",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Malikia Resort Abu Dabbab",
+    "to": "Steigenberger Coraya Beach",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Abu Dabbab Lodge",
+    "to": "Iberotel Costa Mares",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Hilton Marsa Alam Nubian Resort",
+    "to": "Marsa Alam International Airport",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Sataya Resort",
+    "to": "Coral Hills Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Iconic Resort Marsa Alam",
+    "to": "Coral Hills Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Malikia Resort Abu Dabbab",
+    "to": "Coral Hills Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Abu Dabbab Lodge",
+    "to": "Coral Hills Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Hilton Marsa Alam Nubian Resort",
+    "to": "Coral Hills Resort",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Sataya Resort",
+    "to": "Hurghada Hotels",
+    "HighSprice": 80,
+    "sedanPrice": 70,
+    "isHotel": true
+  },
+  {
+    "from": "Sataya Resort",
+    "to": "Hurghada International Airport",
+    "HighSprice": 80,
+    "sedanPrice": 70,
+    "isHotel": true
+  },
+  {
+    "from": "Iconic Resort Marsa Alam",
+    "to": "Hurghada Hotels",
+    "HighSprice": 80,
+    "sedanPrice": 70,
+    "isHotel": true
+  },
+  {
+    "from": "Malikia Resort Abu Dabbab",
+    "to": "Hurghada International Airport",
+    "HighSprice": 80,
+    "sedanPrice": 70,
+    "isHotel": true
+  },
+  {
+    "from": "Abu Dabbab Lodge",
+    "to": "Hurghada Hotels",
+    "HighSprice": 80,
+    "sedanPrice": 70,
+    "isHotel": true
+  },
+  {
+    "from": "Hilton Marsa Alam Nubian Resort",
+    "to": "Hurghada International Airport",
+    "HighSprice": 80,
+    "sedanPrice": 70,
+    "isHotel": true
+  },
+  {
+    "from": "Happy Life Beach Resort",
+    "to": "Lahami Bay Beach Resort",
+    "HighSprice": 70,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Concorde Moreen Beach Resort",
+    "to": "Wadi Lahmy Azur Resort",
+    "HighSprice": 70,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Oyster Bay Resort",
+    "to": "Kite Village Hamata",
+    "HighSprice": 70,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Bliss Nada Beach Resort",
+    "to": "Lahami Bay Beach Resort",
+    "HighSprice": 70,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Shoni Bay Resort",
+    "to": "Wadi Lahmy Azur Resort",
+    "HighSprice": 70,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Casa Mare Resort",
+    "to": "Kite Village Hamata",
+    "HighSprice": 70,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Casa Blue Resort",
+    "to": "Lahami Bay Beach Resort",
+    "HighSprice": 70,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Happy Life Beach Resort",
+    "to": "Sataya Resort",
+    "HighSprice": 20,
+    "sedanPrice": 15,
+    "isHotel": true
+  },
+  {
+    "from": "Concorde Moreen Beach Resort",
+    "to": "Malikia Resort Abu Dabbab",
+    "HighSprice": 20,
+    "sedanPrice": 15,
+    "isHotel": true
+  },
+  {
+    "from": "Oyster Bay Resort",
+    "to": "Hilton Marsa Alam Nubian Resort",
+    "HighSprice": 20,
+    "sedanPrice": 15,
+    "isHotel": true
+  },
+  {
+    "from": "Bliss Nada Beach Resort",
+    "to": "Abu Dabbab Lodge",
+    "HighSprice": 20,
+    "sedanPrice": 15,
+    "isHotel": true
+  },
+  {
+    "from": "Shoni Bay Resort",
+    "to": "Iconic Resort Marsa Alam",
+    "HighSprice": 20,
+    "sedanPrice": 15,
+    "isHotel": true
+  },
+  {
+    "from": "Casa Mare Resort",
+    "to": "Sataya Resort",
+    "HighSprice": 20,
+    "sedanPrice": 15,
+    "isHotel": true
+  },
+  {
+    "from": "Casa Blue Resort",
+    "to": "Hilton Marsa Alam Nubian Resort",
+    "HighSprice": 20,
+    "sedanPrice": 15,
+    "isHotel": true
+  },
+  {
+    "from": "Happy Life Beach Resort",
+    "to": "All Port Ghalib Hotels",
+    "HighSprice": 20,
+    "sedanPrice": 15,
+    "isHotel": true
+  },
+  {
+    "from": "Concorde Moreen Beach Resort",
+    "to": "Marsa Alam International Airport",
+    "HighSprice": 20,
+    "sedanPrice": 15,
+    "isHotel": true
+  },
+  {
+    "from": "Oyster Bay Resort",
+    "to": "Jaz Hotels (Solaya, Lamaya, Dar El Madina, Grand Marsa)",
+    "HighSprice": 20,
+    "sedanPrice": 15,
+    "isHotel": true
+  },
+  {
+    "from": "Bliss Nada Beach Resort",
+    "to": "Steigenberger Coraya Beach",
+    "HighSprice": 20,
+    "sedanPrice": 15,
+    "isHotel": true
+  },
+  {
+    "from": "Shoni Bay Resort",
+    "to": "Iberotel Costa Mares",
+    "HighSprice": 20,
+    "sedanPrice": 15,
+    "isHotel": true
+  },
+  {
+    "from": "Casa Mare Resort",
+    "to": "Marsa Alam International Airport",
+    "HighSprice": 20,
+    "sedanPrice": 15,
+    "isHotel": true
+  },
+  {
+    "from": "Casa Blue Resort",
+    "to": "All Port Ghalib Hotels",
+    "HighSprice": 20,
+    "sedanPrice": 15,
+    "isHotel": true
+  },
+  {
+    "from": "Happy Life Beach Resort",
+    "to": "Coral Hills Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Concorde Moreen Beach Resort",
+    "to": "Coral Hills Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Oyster Bay Resort",
+    "to": "Coral Hills Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Bliss Nada Beach Resort",
+    "to": "Coral Hills Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Shoni Bay Resort",
+    "to": "Coral Hills Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Casa Mare Resort",
+    "to": "Coral Hills Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Casa Blue Resort",
+    "to": "Coral Hills Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Happy Life Beach Resort",
+    "to": "Hurghada Hotels",
+    "HighSprice": 75,
+    "sedanPrice": 65,
+    "isHotel": true
+  },
+  {
+    "from": "Happy Life Beach Resort",
+    "to": "Hurghada International Airport",
+    "HighSprice": 75,
+    "sedanPrice": 65,
+    "isHotel": true
+  },
+  {
+    "from": "Concorde Moreen Beach Resort",
+    "to": "Hurghada Hotels",
+    "HighSprice": 75,
+    "sedanPrice": 65,
+    "isHotel": true
+  },
+  {
+    "from": "Oyster Bay Resort",
+    "to": "Hurghada International Airport",
+    "HighSprice": 75,
+    "sedanPrice": 65,
+    "isHotel": true
+  },
+  {
+    "from": "Bliss Nada Beach Resort",
+    "to": "Hurghada Hotels",
+    "HighSprice": 75,
+    "sedanPrice": 65,
+    "isHotel": true
+  },
+  {
+    "from": "Shoni Bay Resort",
+    "to": "Hurghada International Airport",
+    "HighSprice": 75,
+    "sedanPrice": 65,
+    "isHotel": true
+  },
+  {
+    "from": "Casa Mare Resort",
+    "to": "Hurghada Hotels",
+    "HighSprice": 75,
+    "sedanPrice": 65,
+    "isHotel": true
+  },
+  {
+    "from": "Casa Blue Resort",
+    "to": "Hurghada International Airport",
+    "HighSprice": 75,
+    "sedanPrice": 65,
+    "isHotel": true
+  },
+  {
+    "from": "All Port Ghalib Hotels",
+    "to": "Marsa Alam International Airport",
+    "HighSprice": 15,
+    "sedanPrice": 10,
+    "isHotel": true
+  },
+  {
+    "from": "All Port Ghalib Hotels",
+    "to": "Sataya Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "All Port Ghalib Hotels",
+    "to": "Hilton Marsa Alam Nubian Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "All Port Ghalib Hotels",
+    "to": "Concorde Moreen Beach Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Jaz Hotels (Solaya, Lamaya, Dar El Madina, Grand Marsa)",
+    "to": "Marsa Alam International Airport",
+    "HighSprice": 15,
+    "sedanPrice": 10,
+    "isHotel": true
+  },
+  {
+    "from": "Jaz Hotels (Solaya, Lamaya, Dar El Madina, Grand Marsa)",
+    "to": "Malikia Resort Abu Dabbab",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Jaz Hotels (Solaya, Lamaya, Dar El Madina, Grand Marsa)",
+    "to": "Casa Mare Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Steigenberger Coraya Beach",
+    "to": "Marsa Alam International Airport",
+    "HighSprice": 15,
+    "sedanPrice": 10,
+    "isHotel": true
+  },
+  {
+    "from": "Steigenberger Coraya Beach",
+    "to": "Abu Dabbab Lodge",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "Iberotel Costa Mares",
+    "to": "Marsa Alam International Airport",
+    "HighSprice": 15,
+    "sedanPrice": 10,
+    "isHotel": true
+  },
+  {
+    "from": "Iberotel Costa Mares",
+    "to": "Shoni Bay Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": true
+  },
+  {
+    "from": "All Port Ghalib Hotels",
+    "to": "Movenpick Resort El Quseir",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "All Port Ghalib Hotels",
+    "to": "Radisson Blu El Quseir",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "All Port Ghalib Hotels",
+    "to": "Flamenco Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Jaz Hotels (Solaya, Lamaya, Dar El Madina, Grand Marsa)",
+    "to": "Movenpick Resort El Quseir",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Steigenberger Coraya Beach",
+    "to": "Radisson Blu El Quseir",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Iberotel Costa Mares",
+    "to": "Flamenco Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "All Port Ghalib Hotels",
+    "to": "Lahami Bay Beach Resort",
+    "HighSprice": 85,
+    "sedanPrice": 65,
+    "isHotel": true
+  },
+  {
+    "from": "All Port Ghalib Hotels",
+    "to": "Wadi Lahmy Azur Resort",
+    "HighSprice": 85,
+    "sedanPrice": 65,
+    "isHotel": true
+  },
+  {
+    "from": "All Port Ghalib Hotels",
+    "to": "Kite Village Hamata",
+    "HighSprice": 85,
+    "sedanPrice": 65,
+    "isHotel": true
+  },
+  {
+    "from": "All Port Ghalib Hotels",
+    "to": "Hurghada International Airport",
+    "HighSprice": 70,
+    "sedanPrice": 60,
+    "isHotel": true
+  },
+  {
+    "from": "Jaz Hotels (Solaya, Lamaya, Dar El Madina, Grand Marsa)",
+    "to": "Lahami Bay Beach Resort",
+    "HighSprice": 85,
+    "sedanPrice": 65,
+    "isHotel": true
+  },
+  {
+    "from": "Jaz Hotels (Solaya, Lamaya, Dar El Madina, Grand Marsa)",
+    "to": "Hurghada International Airport",
+    "HighSprice": 70,
+    "sedanPrice": 60,
+    "isHotel": true
+  },
+  {
+    "from": "Steigenberger Coraya Beach",
+    "to": "Hurghada International Airport",
+    "HighSprice": 70,
+    "sedanPrice": 60,
+    "isHotel": true
+  },
+  {
+    "from": "Iberotel Costa Mares",
+    "to": "Hurghada International Airport",
+    "HighSprice": 70,
+    "sedanPrice": 60,
+    "isHotel": true
+  },
+  {
+    "from": "Marsa Alam International Airport",
+    "to": "Sataya Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": false
+  },
+  {
+    "from": "Marsa Alam International Airport",
+    "to": "Iconic Resort Marsa Alam",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": false
+  },
+  {
+    "from": "Marsa Alam International Airport",
+    "to": "Malikia Resort Abu Dabbab",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": false
+  },
+  {
+    "from": "Marsa Alam International Airport",
+    "to": "Abu Dabbab Lodge",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": false
+  },
+  {
+    "from": "Marsa Alam International Airport",
+    "to": "Hilton Marsa Alam Nubian Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": false
+  },
+  {
+    "from": "Marsa Alam International Airport",
+    "to": "Concorde Moreen Beach Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": false
+  },
+  {
+    "from": "Marsa Alam International Airport",
+    "to": "Oyster Bay Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": false
+  },
+  {
+    "from": "Marsa Alam International Airport",
+    "to": "Bliss Nada Beach Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": false
+  },
+  {
+    "from": "Marsa Alam International Airport",
+    "to": "Shoni Bay Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": false
+  },
+  {
+    "from": "Marsa Alam International Airport",
+    "to": "Casa Mare Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": false
+  },
+  {
+    "from": "Marsa Alam International Airport",
+    "to": "Casa Blue Resort",
+    "HighSprice": 25,
+    "sedanPrice": 20,
+    "isHotel": false
+  },
+  {
+    "from": "Marsa Alam International Airport",
+    "to": "All Port Ghalib Hotels",
+    "HighSprice": 15,
+    "sedanPrice": 10,
+    "isHotel": false
+  },
+  {
+    "from": "Marsa Alam International Airport",
+    "to": "Jaz Hotels (Solaya, Lamaya, Dar El Madina, Grand Marsa)",
+    "HighSprice": 15,
+    "sedanPrice": 10,
+    "isHotel": false
+  },
+  {
+    "from": "Marsa Alam International Airport",
+    "to": "Steigenberger Coraya Beach",
+    "HighSprice": 15,
+    "sedanPrice": 10,
+    "isHotel": false
+  },
+  {
+    "from": "Marsa Alam International Airport",
+    "to": "Iberotel Costa Mares",
+    "HighSprice": 15,
+    "sedanPrice": 10,
+    "isHotel": false
+  },
+  {
+    "from": "Marsa Alam International Airport",
+    "to": "Aurora Bay Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": false
+  },
+  {
+    "from": "Marsa Alam International Airport",
+    "to": "Beach Safari Nubian Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": false
+  },
+  {
+    "from": "Marsa Alam International Airport",
+    "to": "Lahami Bay Beach Resort",
+    "HighSprice": 85,
+    "sedanPrice": 65,
+    "isHotel": false
+  },
+  {
+    "from": "Marsa Alam International Airport",
+    "to": "Wadi Lahmy Azur Resort",
+    "HighSprice": 85,
+    "sedanPrice": 65,
+    "isHotel": false
+  },
+  {
+    "from": "Marsa Alam International Airport",
+    "to": "Kite Village Hamata",
+    "HighSprice": 85,
+    "sedanPrice": 65,
+    "isHotel": false
+  },
+  {
+    "from": "Marsa Alam International Airport",
+    "to": "Hurghada International Airport",
+    "HighSprice": 70,
+    "sedanPrice": 60,
+    "isHotel": false
+  },
+  {
+    "from": "Coral Hills Resort",
+    "to": "Concorde Moreen Beach Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Coral Hills Resort",
+    "to": "Oyster Bay Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Coral Hills Resort",
+    "to": "Bliss Nada Beach Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Coral Hills Resort",
+    "to": "Shoni Bay Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Coral Hills Resort",
+    "to": "Casa Mare Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Coral Hills Resort",
+    "to": "Casa Blue Resort",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Coral Hills Resort",
+    "to": "Marsa Alam International Airport",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Coral Hills Resort",
+    "to": "Akassia Swiss Resort",
+    "HighSprice": 15,
+    "sedanPrice": 10,
+    "isHotel": true
+  },
+  {
+    "from": "Coral Hills Resort",
+    "to": "Utopia Beach Club",
+    "HighSprice": 15,
+    "sedanPrice": 10,
+    "isHotel": true
+  },
+  {
+    "from": "Coral Hills Resort",
+    "to": "Sea World Resort",
+    "HighSprice": 15,
+    "sedanPrice": 10,
+    "isHotel": true
+  },
+  {
+    "from": "Coral Hills Resort",
+    "to": "Lazuli Hotel",
+    "HighSprice": 15,
+    "sedanPrice": 10,
+    "isHotel": true
+  },
+  {
+    "from": "Coral Hills Resort",
+    "to": "Movenpick Resort El Quseir",
+    "HighSprice": 15,
+    "sedanPrice": 10,
+    "isHotel": true
+  },
+  {
+    "from": "Coral Hills Resort",
+    "to": "Radisson Blu El Quseir",
+    "HighSprice": 15,
+    "sedanPrice": 10,
+    "isHotel": true
+  },
+  {
+    "from": "Coral Hills Resort",
+    "to": "Flamenco Resort",
+    "HighSprice": 15,
+    "sedanPrice": 10,
+    "isHotel": true
+  },
+  {
+    "from": "Coral Hills Resort",
+    "to": "Hurghada International Airport",
+    "HighSprice": 65,
+    "sedanPrice": 55,
+    "isHotel": true
+  },
+  {
+    "from": "Akassia Swiss Resort",
+    "to": "Coral Hills Resort",
+    "HighSprice": 15,
+    "sedanPrice": 10,
+    "isHotel": true
+  },
+  {
+    "from": "Akassia Swiss Resort",
+    "to": "Movenpick Resort El Quseir",
+    "HighSprice": 15,
+    "sedanPrice": 10,
+    "isHotel": true
+  },
+  {
+    "from": "Akassia Swiss Resort",
+    "to": "Radisson Blu El Quseir",
+    "HighSprice": 15,
+    "sedanPrice": 10,
+    "isHotel": true
+  },
+  {
+    "from": "Akassia Swiss Resort",
+    "to": "Flamenco Resort",
+    "HighSprice": 15,
+    "sedanPrice": 10,
+    "isHotel": true
+  },
+  {
+    "from": "Utopia Beach Club",
+    "to": "Coral Hills Resort",
+    "HighSprice": 15,
+    "sedanPrice": 10,
+    "isHotel": true
+  },
+  {
+    "from": "Sea World Resort",
+    "to": "Movenpick Resort El Quseir",
+    "HighSprice": 15,
+    "sedanPrice": 10,
+    "isHotel": true
+  },
+  {
+    "from": "Lazuli Hotel",
+    "to": "Radisson Blu El Quseir",
+    "HighSprice": 15,
+    "sedanPrice": 10,
+    "isHotel": true
+  },
+  {
+    "from": "Akassia Swiss Resort",
+    "to": "All Port Ghalib Hotels",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Akassia Swiss Resort",
+    "to": "Jaz Hotels (Solaya, Lamaya, Dar El Madina, Grand Marsa)",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Akassia Swiss Resort",
+    "to": "Marsa Alam International Airport",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Utopia Beach Club",
+    "to": "Marsa Alam International Airport",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Sea World Resort",
+    "to": "Steigenberger Coraya Beach",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Lazuli Hotel",
+    "to": "Iberotel Costa Mares",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Akassia Swiss Resort",
+    "to": "Wadi El Gemal Area",
+    "HighSprice": 85,
+    "sedanPrice": 65,
+    "isHotel": true
+  },
+  {
+    "from": "Akassia Swiss Resort",
+    "to": "Hurghada International Airport",
+    "HighSprice": 60,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Utopia Beach Club",
+    "to": "Wadi El Gemal Area",
+    "HighSprice": 85,
+    "sedanPrice": 65,
+    "isHotel": true
+  },
+  {
+    "from": "Utopia Beach Club",
+    "to": "Hurghada International Airport",
+    "HighSprice": 60,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Sea World Resort",
+    "to": "Hurghada International Airport",
+    "HighSprice": 60,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Lazuli Hotel",
+    "to": "Hurghada International Airport",
+    "HighSprice": 60,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Movenpick Resort El Quseir",
+    "to": "Akassia Swiss Resort",
+    "HighSprice": 15,
+    "sedanPrice": 10,
+    "isHotel": true
+  },
+  {
+    "from": "Movenpick Resort El Quseir",
+    "to": "Utopia Beach Club",
+    "HighSprice": 15,
+    "sedanPrice": 10,
+    "isHotel": true
+  },
+  {
+    "from": "Movenpick Resort El Quseir",
+    "to": "Sea World Resort",
+    "HighSprice": 15,
+    "sedanPrice": 10,
+    "isHotel": true
+  },
+  {
+    "from": "Movenpick Resort El Quseir",
+    "to": "Lazuli Hotel",
+    "HighSprice": 15,
+    "sedanPrice": 10,
+    "isHotel": true
+  },
+  {
+    "from": "Radisson Blu El Quseir",
+    "to": "Akassia Swiss Resort",
+    "HighSprice": 15,
+    "sedanPrice": 10,
+    "isHotel": true
+  },
+  {
+    "from": "Radisson Blu El Quseir",
+    "to": "Lazuli Hotel",
+    "HighSprice": 15,
+    "sedanPrice": 10,
+    "isHotel": true
+  },
+  {
+    "from": "Flamenco Resort",
+    "to": "Utopia Beach Club",
+    "HighSprice": 15,
+    "sedanPrice": 10,
+    "isHotel": true
+  },
+  {
+    "from": "Movenpick Resort El Quseir",
+    "to": "Marsa Alam International Airport",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Movenpick Resort El Quseir",
+    "to": "Safaga Hotels",
+    "HighSprice": 50,
+    "sedanPrice": 40,
+    "isHotel": true
+  },
+  {
+    "from": "Radisson Blu El Quseir",
+    "to": "Marsa Alam International Airport",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Radisson Blu El Quseir",
+    "to": "Safaga Hotels",
+    "HighSprice": 50,
+    "sedanPrice": 40,
+    "isHotel": true
+  },
+  {
+    "from": "Flamenco Resort",
+    "to": "Marsa Alam International Airport",
+    "HighSprice": 35,
+    "sedanPrice": 25,
+    "isHotel": true
+  },
+  {
+    "from": "Flamenco Resort",
+    "to": "Safaga Hotels",
+    "HighSprice": 50,
+    "sedanPrice": 40,
+    "isHotel": true
+  },
+  {
+    "from": "Movenpick Resort El Quseir",
+    "to": "Hurghada International Airport",
+    "HighSprice": 60,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Radisson Blu El Quseir",
+    "to": "Hurghada International Airport",
+    "HighSprice": 60,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Flamenco Resort",
+    "to": "Hurghada International Airport",
+    "HighSprice": 60,
+    "sedanPrice": 50,
+    "isHotel": true
+  },
+  {
+    "from": "Safaga Hotels",
+    "to": "Lahami Bay Beach Resort",
+    "HighSprice": 120,
+    "sedanPrice": 100,
+    "isHotel": true
+  },
+  {
+    "from": "Safaga Hotels",
+    "to": "Wadi Lahmy Azur Resort",
+    "HighSprice": 120,
+    "sedanPrice": 100,
+    "isHotel": true
+  },
+  {
+    "from": "Safaga Hotels",
+    "to": "Kite Village Hamata",
+    "HighSprice": 120,
+    "sedanPrice": 100,
+    "isHotel": true
+  },
+  {
+    "from": "Safaga Hotels",
+    "to": "Shams Alam Beach Resort",
+    "HighSprice": 100,
+    "sedanPrice": 80,
+    "isHotel": true
+  },
+  {
+    "from": "Safaga Hotels",
+    "to": "Gorgonia Beach Resort",
+    "HighSprice": 100,
+    "sedanPrice": 80,
+    "isHotel": true
+  },
+  {
+    "from": "Safaga Hotels",
+    "to": "Movenpick Resort El Quseir",
+    "HighSprice": 50,
+    "sedanPrice": 40,
+    "isHotel": true
+  },
+  {
+    "from": "Safaga Hotels",
+    "to": "Radisson Blu El Quseir",
+    "HighSprice": 50,
+    "sedanPrice": 40,
+    "isHotel": true
+  },
+  {
+    "from": "Safaga Hotels",
+    "to": "Flamenco Resort",
+    "HighSprice": 50,
+    "sedanPrice": 40,
+    "isHotel": true
+  },
+  {
+    "from": "Safaga Hotels",
+    "to": "Hurghada Hotels",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Safaga Hotels",
+    "to": "Hurghada International Airport",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Hurghada Hotels",
+    "to": "Lahami Bay Beach Resort",
+    "HighSprice": 120,
+    "sedanPrice": 100,
+    "isHotel": true
+  },
+  {
+    "from": "Hurghada Hotels",
+    "to": "Wadi Lahmy Azur Resort",
+    "HighSprice": 120,
+    "sedanPrice": 100,
+    "isHotel": true
+  },
+  {
+    "from": "Hurghada Hotels",
+    "to": "Kite Village Hamata",
+    "HighSprice": 120,
+    "sedanPrice": 100,
+    "isHotel": true
+  },
+  {
+    "from": "Hurghada Hotels",
+    "to": "Marsa Alam International Airport",
+    "HighSprice": 70,
+    "sedanPrice": 60,
+    "isHotel": true
+  },
+  {
+    "from": "Hurghada Hotels",
+    "to": "Safaga Hotels",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": true
+  },
+  {
+    "from": "Hurghada Hotels",
+    "to": "Hurghada International Airport",
+    "HighSprice": 15,
+    "sedanPrice": 10,
+    "isHotel": true
+  },
+  {
+    "from": "Hurghada International Airport",
+    "to": "Lahami Bay Beach Resort",
+    "HighSprice": 120,
+    "sedanPrice": 100,
+    "isHotel": false
+  },
+  {
+    "from": "Hurghada International Airport",
+    "to": "Wadi Lahmy Azur Resort",
+    "HighSprice": 120,
+    "sedanPrice": 100,
+    "isHotel": false
+  },
+  {
+    "from": "Hurghada International Airport",
+    "to": "Kite Village Hamata",
+    "HighSprice": 120,
+    "sedanPrice": 100,
+    "isHotel": false
+  },
+  {
+    "from": "Hurghada International Airport",
+    "to": "Marsa Alam International Airport",
+    "HighSprice": 70,
+    "sedanPrice": 60,
+    "isHotel": false
+  },
+  {
+    "from": "Hurghada International Airport",
+    "to": "Coral Hills Resort",
+    "HighSprice": 65,
+    "sedanPrice": 55,
+    "isHotel": false
+  },
+  {
+    "from": "Hurghada International Airport",
+    "to": "Safaga Hotels",
+    "HighSprice": 40,
+    "sedanPrice": 30,
+    "isHotel": false
+  },
+  {
+    "from": "Hurghada International Airport",
+    "to": "Hurghada Hotels",
+    "HighSprice": 15,
+    "sedanPrice": 10,
+    "isHotel": false
+  }
+]
