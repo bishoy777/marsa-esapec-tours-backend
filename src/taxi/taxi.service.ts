@@ -17,9 +17,11 @@ export class TaxiService {
     return this.taxiRepository.save(taxi);
   }
 
-  async findAll(page = 1, perPage = 10) {
+  async findAll(page = 1, perPage = 10, search?: string) {
     perPage = Math.min(perPage, 1000);
+    const whereCondition = search ? { from: Like(`%${search}%`) } : {};
     const [data, total] = await this.taxiRepository.findAndCount({
+      where: whereCondition,
       skip: (page - 1) * perPage,
       take: perPage,
     });

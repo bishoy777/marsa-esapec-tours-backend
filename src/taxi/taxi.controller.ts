@@ -27,8 +27,9 @@ export class TaxiController {
   findAll(
     @Query('page') page: string = '1',
     @Query('perPage') perPage: string = '10',
+    @Query('search') search?: string,
   ) {
-    return this.taxiService.findAll(+page, +perPage);
+    return this.taxiService.findAll(+page, +perPage, search);
   }
 
   @Get(':id')
