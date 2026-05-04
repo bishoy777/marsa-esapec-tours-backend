@@ -18,42 +18,45 @@ export class TaxiService {
   }
 
   async findAll(page = 1, perPage = 10) {
-    perPage = Math.min(perPage, 1000);
-    const skip = (page - 1) * perPage;
+    try {
+      perPage = Math.min(perPage, 1000);
+      const skip = (page - 1) * perPage;
 
-    // 1. Fetch the distinct data sorted by the "from" column
-    const data = await this.taxiRepository
-      .createQueryBuilder('taxi')
-      .select('DISTINCT ON (taxi.from) taxi.from', 'from')
-      // If you want other columns, they must be included in the selection
-      .addSelect([
-        'taxi.to',
-        'taxi.sedanPrice',
-        'taxi.HighSprice',
-        'taxi.isHotel',
-      ])
-      .orderBy('taxi.from', 'ASC')
-      .limit(perPage)
-      .offset(skip)
-      .getRawMany(); // getRawMany is safer for DISTINCT results
+      // 1. Create the query
+      // In Postgres, 'DISTINCT ON (col)' requires 'ORDER BY col' to be the first sort criteria
+      const query = this.taxiRepository
+        .createQueryBuilder('taxi')
+        .select('DISTINCT ON (taxi.from) taxi.from', 'from')
+        .addSelect('taxi.to', 'to')
+        .addSelect('taxi.sedanPrice', 'sedanPrice')
+        .addSelect('taxi.HighSprice', 'HighSprice')
+        .addSelect('taxi.isHotel', 'isHotel')
+        .orderBy('taxi.from', 'ASC') // Required to match the DISTINCT ON column
+        .limit(perPage)
+        .offset(skip);
 
-    // 2. Calculate the total count of unique "from" locations
-    const countResult = await this.taxiRepository
-      .createQueryBuilder('taxi')
-      .select('COUNT(DISTINCT taxi.from)', 'count')
-      .getRawOne();
+      const data = await query.getRawMany();
 
-    const total = parseInt(countResult.count, 10);
+      // 2. Count unique 'from' values for pagination
+      const countQuery = await this.taxiRepository
+        .createQueryBuilder('taxi')
+        .select('COUNT(DISTINCT taxi.from)', 'total')
+        .getRawOne();
 
-    // 3. Return the exact same object structure as before
-    return {
-      data,
-      pagination: {
-        total,
-        page,
-        perPage,
-      },
-    };
+      const total = parseInt(countQuery.total, 10) || 0;
+
+      return {
+        data,
+        pagination: {
+          total,
+          page,
+          perPage,
+        },
+      };
+    } catch (error) {
+      console.error('Database Error:', error);
+      throw error; // This will help you see the specific SQL error in your logs
+    }
   }
 
   findOne(id: number) {
