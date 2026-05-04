@@ -38,20 +38,20 @@ export class packagereservationService {
   // FIND ALL
   async findAll(page: number = 1, perPage: number = 10) {
     page = Math.max(1, page);
-    perPage = Math.min(Math.max(1, perPage), 50);
+    perPage = Math.min(perPage, 1000);
 
     const [data, total] = await this.reservationRepo.findAndCount({
-      order: { createdAt: 'DESC' },
       skip: (page - 1) * perPage,
       take: perPage,
     });
 
     return {
       data,
-      total,
-      page,
-      perPage,
-      lastPage: Math.ceil(total / perPage),
+      pagination: {
+        total,
+        page,
+        perPage,
+      },
     };
   }
 
