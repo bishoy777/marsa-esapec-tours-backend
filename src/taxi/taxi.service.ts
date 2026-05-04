@@ -19,40 +19,16 @@ export class TaxiService {
 
   async findAll(page = 1, perPage = 10) {
     perPage = Math.min(perPage, 1000);
-    const skip = (page - 1) * perPage;
-
-    // 1. Create a QueryBuilder to handle DISTINCT on multiple columns
-    const queryBuilder = this.taxiRepository
-      .createQueryBuilder('taxi')
-      .select([
-        'taxi.from',
-        'taxi.to',
-        'taxi.sedanPrice',
-        'taxi.HighSprice',
-        'taxi.isHotel',
-      ])
-      .distinct(true) // Ensures the entire row combination is unique
-      .orderBy('taxi.from', 'ASC')
-      .skip(skip)
-      .take(perPage);
-
-    // 2. Execute the query
-    const data = await queryBuilder.getMany();
-
-    // 3. Get the total count of unique rows for the pagination metadata
-    // Note: getCount() with distinct can be heavy, so we use a subquery for accuracy
-    const total = await this.taxiRepository
-      .createQueryBuilder('taxi')
-      .select('DISTINCT taxi.from, taxi.to')
-      .getCount();
-
+    const [data, total] = await this.taxiRepository.findAndCount({
+      skip: (page - 1) * perPage,
+      take: perPage,
+    });
     return {
       data,
       pagination: {
         total,
         page,
         perPage,
-        totalPages: Math.ceil(total / perPage),
       },
     };
   }
