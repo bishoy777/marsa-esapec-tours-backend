@@ -19,10 +19,33 @@ export class TaxiService {
 
   async findAll(page = 1, perPage = 10) {
     perPage = Math.min(perPage, 1000);
-    const [data, total] = await this.taxiRepository.findAndCount({
-      skip: (page - 1) * perPage,
-      take: perPage,
-    });
+    const skip = (page - 1) * perPage;
+
+    // 1. Fetch the distinct data sorted by the "from" column
+    const data = await this.taxiRepository
+      .createQueryBuilder('taxi')
+      .select('DISTINCT ON (taxi.from) taxi.from', 'from')
+      // If you want other columns, they must be included in the selection
+      .addSelect([
+        'taxi.to',
+        'taxi.sedanPrice',
+        'taxi.HighSprice',
+        'taxi.isHotel',
+      ])
+      .orderBy('taxi.from', 'ASC')
+      .limit(perPage)
+      .offset(skip)
+      .getRawMany(); // getRawMany is safer for DISTINCT results
+
+    // 2. Calculate the total count of unique "from" locations
+    const countResult = await this.taxiRepository
+      .createQueryBuilder('taxi')
+      .select('COUNT(DISTINCT taxi.from)', 'count')
+      .getRawOne();
+
+    const total = parseInt(countResult.count, 10);
+
+    // 3. Return the exact same object structure as before
     return {
       data,
       pagination: {
