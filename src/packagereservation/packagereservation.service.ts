@@ -44,7 +44,6 @@ export class packagereservationService {
       skip: (page - 1) * perPage,
       take: perPage,
     });
-
     return {
       data,
       pagination: {

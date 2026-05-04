@@ -19,6 +19,8 @@ export class SimreservationService {
   }
 
   async findAll(page: number = 1, perPage: number = 10) {
+    page = Math.max(1, page);
+    perPage = Math.min(perPage, 1000);
     const [data, total] = await this.repo.findAndCount({
       order: { id: 'DESC' },
       skip: (page - 1) * perPage,
@@ -27,10 +29,11 @@ export class SimreservationService {
 
     return {
       data,
-      total,
-      page,
-      perPage,
-      lastPage: Math.ceil(total / perPage),
+      pagination: {
+        total,
+        page,
+        perPage,
+      },
     };
   }
 
