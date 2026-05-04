@@ -4,6 +4,7 @@ import { UpdateTaxiDto } from './dto/update-taxi.dto';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { Taxi } from './entities/taxi.entity';
+import { ILike } from 'typeorm';
 
 @Injectable()
 export class TaxiService {
@@ -19,7 +20,7 @@ export class TaxiService {
 
   async findAll(page = 1, perPage = 10, search?: string) {
     perPage = Math.min(perPage, 1000);
-    const whereCondition = search ? { from: Like(`%${search}%`) } : {};
+    const whereCondition = search ? { from: ILike(`%${search}%`) } : {};
     const [data, total] = await this.taxiRepository.findAndCount({
       where: whereCondition,
       skip: (page - 1) * perPage,
